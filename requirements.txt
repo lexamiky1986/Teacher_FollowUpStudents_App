@@ -3,3 +3,8 @@ pandas
 numpy
 faker
 scikit-learn
+matplotlib
+gspread
+google-auth
+requests
+PyGithub
