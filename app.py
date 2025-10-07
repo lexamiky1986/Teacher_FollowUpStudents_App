@@ -1,7 +1,8 @@
 import streamlit as st
 import pandas as pd
-from ml_model import train_model
 from datetime import datetime
+from ml_model import train_model
+from nlp_module import analizar_observacion
 
 st.set_page_config(page_title="Seguimiento Docente", layout="wide")
 
@@ -18,7 +19,12 @@ def save_data(df):
 df = load_data()
 
 # --- Menú lateral ---
-menu = st.sidebar.selectbox("Menú", ["📊 Ver Datos", "➕ Agregar Observación", "🤖 IA / Análisis"])
+menu = st.sidebar.selectbox("Menú", [
+    "📊 Ver Datos",
+    "➕ Agregar Observación",
+    "🤖 IA / Análisis",
+    "🧠 Análisis NLP y Estrategias"
+])
 
 # --- Ver datos ---
 if menu == "📊 Ver Datos":
@@ -35,7 +41,7 @@ elif menu == "➕ Agregar Observación":
 
     with st.form("new_entry"):
         name = st.text_input("Nombre del estudiante")
-        grade = st.selectbox("Grado", sorted(df["grade"].unique()))
+        grade = st.selectbox("Grado", sorted(df["grade"].unique()) if not df.empty else ["6A", "6B", "7A", "7B", "8A"])
         academic = st.slider("Desempeño académico (1.0 a 5.0)", 1.0, 5.0, 3.0)
         disciplinary = st.slider("Disciplina (0 a 10)", 0, 10, 5)
         emotional = st.slider("Emocional / Psicosocial (0 a 10)", 0, 10, 5)
@@ -56,8 +62,7 @@ elif menu == "➕ Agregar Observación":
             save_data(df)
             st.success("✅ Registro guardado con éxito.")
 
-# --- Análisis IA ---
-# --- Análisis IA ---
+# --- Análisis con IA ---
 elif menu == "🤖 IA / Análisis":
     st.subheader("Análisis con Inteligencia Artificial")
     analyzed_df, model = train_model()
@@ -69,21 +74,15 @@ elif menu == "🤖 IA / Análisis":
     - 🔴 `2`: Grupo que requiere seguimiento especial
     """)
 
-    # Selector de grado
     grados = sorted(analyzed_df["grade"].unique())
-    grado_seleccionado = st.selectbox("Selecciona un grado:", grados)
+    grado_sel = st.selectbox("Selecciona un grado:", grados)
+    df_grado = analyzed_df[analyzed_df["grade"] == grado_sel]
 
-    # Filtrar por grado
-    df_grado = analyzed_df[analyzed_df["grade"] == grado_seleccionado]
-
-    # Mostrar métricas del grado
-    st.write(f"**Promedio Académico ({grado_seleccionado}):**", round(df_grado["academic_score"].mean(), 2))
+    st.write(f"**Promedio Académico ({grado_sel}):**", round(df_grado["academic_score"].mean(), 2))
     st.write(f"**Promedio Disciplinario:**", round(df_grado["disciplinary_score"].mean(), 2))
     st.write(f"**Promedio Emocional:**", round(df_grado["emotional_score"].mean(), 2))
 
-    # Mostrar los estudiantes por clúster
     st.markdown("### 📋 Listado de estudiantes por clúster")
-
     for cluster, grupo in df_grado.groupby("profile_cluster"):
         color = "🟢" if cluster == 0 else ("🟡" if cluster == 1 else "🔴")
         st.markdown(f"#### {color} Cluster {cluster}")
@@ -92,18 +91,32 @@ elif menu == "🤖 IA / Análisis":
             .sort_values(by="academic_score", ascending=False)
         )
 
-    # Mostrar gráfico resumen
     st.markdown("### 📊 Distribución de los clústeres por grado")
     st.bar_chart(df_grado.groupby("profile_cluster")[["academic_score", "disciplinary_score", "emotional_score"]].mean())
-    st.subheader("Análisis con Inteligencia Artificial")
-    analyzed_df, model = train_model()
-    st.dataframe(analyzed_df)
 
-    st.markdown("""
-    **Interpretación de los clústeres (agrupaciones):**
-    - `0`: Posible grupo de alto desempeño.
-    - `1`: Grupo con riesgo medio.
-    - `2`: Grupo que requiere seguimiento especial.
-    """)
+# --- Análisis NLP ---
+elif menu == "🧠 Análisis NLP y Estrategias":
+    st.subheader("Análisis de Observaciones y Estrategias de Intervención")
 
-    st.bar_chart(analyzed_df.groupby("profile_cluster")[["academic_score", "disciplinary_score", "emotional_score"]].mean())
+    if len(df) == 0:
+        st.warning("No hay datos registrados aún.")
+    else:
+        selected_student = st.selectbox("Selecciona un estudiante:", df["name"].unique())
+        student_data = df[df["name"] == selected_student].iloc[-1]
+
+        st.markdown(f"**Grado:** {student_data['grade']}")
+        st.markdown(f"**Última observación:** {student_data['teacher_observation']}")
+
+        if st.button("Analizar con IA"):
+            resultado = analizar_observacion(student_data["teacher_observation"])
+            st.markdown("### 🔍 Resultado del análisis")
+            st.write(f"**Sentimiento general:** {resultado['sentimiento']} ({resultado['categoria']})")
+
+            st.markdown("### 🎓 Estrategia docente sugerida")
+            st.info(resultado["estrategia_docente"])
+
+            st.markdown("### 🧩 Recomendación de psicoorientación")
+            st.warning(resultado["psicoorientacion"])
+
+            st.markdown("### 🏠 Trabajo con la familia")
+            st.success(resultado["trabajo_familia"])
