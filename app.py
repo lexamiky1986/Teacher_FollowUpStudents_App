@@ -57,7 +57,44 @@ elif menu == "➕ Agregar Observación":
             st.success("✅ Registro guardado con éxito.")
 
 # --- Análisis IA ---
+# --- Análisis IA ---
 elif menu == "🤖 IA / Análisis":
+    st.subheader("Análisis con Inteligencia Artificial")
+    analyzed_df, model = train_model()
+
+    st.markdown("""
+    **Interpretación de los clústeres (agrupaciones):**
+    - 🟢 `0`: Grupo de alto desempeño
+    - 🟡 `1`: Grupo con riesgo medio
+    - 🔴 `2`: Grupo que requiere seguimiento especial
+    """)
+
+    # Selector de grado
+    grados = sorted(analyzed_df["grade"].unique())
+    grado_seleccionado = st.selectbox("Selecciona un grado:", grados)
+
+    # Filtrar por grado
+    df_grado = analyzed_df[analyzed_df["grade"] == grado_seleccionado]
+
+    # Mostrar métricas del grado
+    st.write(f"**Promedio Académico ({grado_seleccionado}):**", round(df_grado["academic_score"].mean(), 2))
+    st.write(f"**Promedio Disciplinario:**", round(df_grado["disciplinary_score"].mean(), 2))
+    st.write(f"**Promedio Emocional:**", round(df_grado["emotional_score"].mean(), 2))
+
+    # Mostrar los estudiantes por clúster
+    st.markdown("### 📋 Listado de estudiantes por clúster")
+
+    for cluster, grupo in df_grado.groupby("profile_cluster"):
+        color = "🟢" if cluster == 0 else ("🟡" if cluster == 1 else "🔴")
+        st.markdown(f"#### {color} Cluster {cluster}")
+        st.dataframe(
+            grupo[["name", "academic_score", "disciplinary_score", "emotional_score", "teacher_observation"]]
+            .sort_values(by="academic_score", ascending=False)
+        )
+
+    # Mostrar gráfico resumen
+    st.markdown("### 📊 Distribución de los clústeres por grado")
+    st.bar_chart(df_grado.groupby("profile_cluster")[["academic_score", "disciplinary_score", "emotional_score"]].mean())
     st.subheader("Análisis con Inteligencia Artificial")
     analyzed_df, model = train_model()
     st.dataframe(analyzed_df)
