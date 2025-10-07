@@ -8,3 +8,4 @@ gspread
 google-auth
 requests
 PyGithub
+textblob
