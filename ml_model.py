@@ -51,7 +51,7 @@ def generar_estrategias(df):
         else:
             psico = "Acompañamiento preventivo para bienestar emocional."
 
-        if disc < 5 or "bajo rendimiento académico" in temas:
+        if disc < 5 or "bajo rendimiento acadéico" in temas:
             familia = "Reunión con familia para fortalecer compromisos y rutinas."
         elif emo < 5:
             familia = "Orientación familiar sobre apoyo emocional y comunicación."
