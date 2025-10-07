@@ -1,1 +1,102 @@
+student_id,name,grade,academic_score,disciplinary_score,emotional_score,teacher_observation
+5060,Shannon Goodman,6A,4.86,10,6,"Buen desempeño general, mantiene buena actitud"
+5010,Lauren Adams,6A,3.37,10,1,"Desempeño aceptable, pero necesita apoyo emocional"
+4048,Jaime Thomas,6A,3.75,8,6,"Buen desempeño general, mantiene buena actitud"
+3960,Maria Buckley,6A,2.69,8,2,Requiere apoyo emocional y refuerzo académico
+3609,Adam Gomez,6A,4.14,7,8,Excelente rendimiento y actitud positiva
+3507,Nicholas Peck,6A,2.73,7,1,Requiere apoyo emocional y refuerzo académico
+3060,April Mcdonald,6A,1.65,6,10,"Dificultades académicas, requiere acompañamiento"
+3055,Jessica Peterson,6A,3.95,6,10,"Buen desempeño general, mantiene buena actitud"
+3042,Joseph Scott,6A,4.28,6,7,"Buen desempeño general, mantiene buena actitud"
+3006,Kelly Trujillo,6A,4.69,6,1,"Desempeño aceptable, pero necesita apoyo emocional"
+2535,Carolyn Becker,6A,2.76,5,7,"Dificultades académicas, requiere acompañamiento"
+2520,Cassidy Martinez,6A,2.92,5,4,Requiere apoyo emocional y refuerzo académico
+2036,Selena Taylor,6A,3.05,0,9,"Buen desempeño, pero presenta problemas de disciplina"
+2024,William Harris,6A,4.77,4,6,"Buen desempeño, pero presenta problemas de disciplina"
+2008,Paul Rodriguez,6A,1.93,0,2,Bajo rendimiento y dificultades disciplinarias
+1530,Gregory Mills,6A,2.99,3,10,Bajo rendimiento y dificultades disciplinarias
+1014,Frank Spencer,6A,1.4,2,7,Bajo rendimiento y dificultades disciplinarias
+1008,Alicia Nelson,6A,3.37,2,4,"Desempeño aceptable, pero necesita apoyo emocional"
+507,Mark Hernandez,6A,2.77,1,3,Bajo rendimiento y dificultades disciplinarias
+5524,Eric Clark,6B,2.48,10,9,"Dificultades académicas, requiere acompañamiento"
+5000,Louis Robinson,6B,2.25,10,0,Requiere apoyo emocional y refuerzo académico
+4527,Mark Roberts,6B,4.89,9,3,"Desempeño aceptable, pero necesita apoyo emocional"
+3563,Laura Carrillo,6B,2.51,7,9,"Dificultades académicas, requiere acompañamiento"
+3554,Ashley Cooper,6B,2.99,7,7,"Dificultades académicas, requiere acompañamiento"
+2525,Theodore Peterson,6B,1.36,5,5,Requiere apoyo emocional y refuerzo académico
+2521,Miranda Cox,6B,1.11,5,4,Requiere apoyo emocional y refuerzo académico
+2510,Matthew Kennedy,6B,1.71,5,2,Requiere apoyo emocional y refuerzo académico
+2455,Gabrielle Henderson,6B,4.72,6,3,"Desempeño aceptable, pero necesita apoyo emocional"
+2041,Stacy Adams,6B,1.61,4,10,Bajo rendimiento y dificultades disciplinarias
+2032,Terry Powell,6B,2.92,0,8,Bajo rendimiento y dificultades disciplinarias
+2028,Jackie Gomez,6B,3.32,0,7,"Buen desempeño, pero presenta problemas de disciplina"
+2016,Mark Murray,6B,3.73,4,4,"Desempeño aceptable, pero necesita apoyo emocional"
+2003,Tamara Powell,6B,2.73,4,0,Bajo rendimiento y dificultades disciplinarias
+1532,Jason Ramirez,6B,4.25,3,10,"Buen desempeño, pero presenta problemas de disciplina"
+1512,Joseph Mendez,6B,1.25,3,4,Bajo rendimiento y dificultades disciplinarias
+1506,Kristopher Solis,6B,1.12,3,2,Bajo rendimiento y dificultades disciplinarias
+1000,Bryan Hall,6B,2.06,2,0,Bajo rendimiento y dificultades disciplinarias
+509,Kari Vargas,6B,1.92,1,9,Bajo rendimiento y dificultades disciplinarias
+505,Jane Lee,6B,1.16,1,5,Bajo rendimiento y dificultades disciplinarias
+502,Kenneth Holloway,6B,4.51,1,2,"Desempeño aceptable, pero necesita apoyo emocional"
+5030,Samuel Hernandez,7A,3.25,10,3,"Desempeño aceptable, pero necesita apoyo emocional"
+4583,Frederick Griffith,7A,4.66,9,3,"Desempeño aceptable, pero necesita apoyo emocional"
+4080,Stephen Larson,7A,4.53,8,10,Excelente rendimiento y actitud positiva
+4000,Rhonda King,7A,4.72,8,0,"Desempeño aceptable, pero necesita apoyo emocional"
+3556,Stephen Blackburn,7A,3.03,7,8,Participa activamente y mantiene buen desempeño
+3502,Miranda Wells,7A,4.92,7,0,"Desempeño aceptable, pero necesita apoyo emocional"
+3030,John Zuniga,7A,4.9,6,5,"Desempeño aceptable, pero necesita apoyo emocional"
+2550,Adrienne Buckley,7A,4.49,5,10,Participa activamente y mantiene buen desempeño
+2540,Yvonne Murray,7A,3.45,5,8,Participa activamente y mantiene buen desempeño
+2515,Brandon Warren,7A,3.24,5,3,"Desempeño aceptable, pero necesita apoyo emocional"
+2500,Meagan Perry,7A,1.54,5,0,Requiere apoyo emocional y refuerzo académico
+2021,Juan Hampton,7A,4.89,0,8,"Buen desempeño, pero presenta problemas de disciplina"
+2012,Keith Griffith,7A,4.41,0,2,"Desempeño aceptable, pero necesita apoyo emocional"
+2015,Kurt Ferguson,7A,3.94,0,3,"Desempeño aceptable, pero necesita apoyo emocional"
+2005,Amber Hess,7A,4.2,4,1,"Desempeño aceptable, pero necesita apoyo emocional"
+2009,Caleb Wheeler,7A,4.83,0,1,"Desempeño aceptable, pero necesita apoyo emocional"
+2000,Kristi Carrillo,7A,1.86,4,0,Bajo rendimiento y dificultades disciplinarias
+1527,Haley Garrett,7A,2.47,3,9,Bajo rendimiento y dificultades disciplinarias
+1521,Vanessa Roy,7A,3.98,3,7,"Buen desempeño, pero presenta problemas de disciplina"
+1503,Julie Sanchez,7A,4.15,3,1,"Desempeño aceptable, pero necesita apoyo emocional"
+5100,John Turner,7B,4.38,10,10,Excelente rendimiento y actitud positiva
+4581,James Juarez,7B,1.59,9,9,"Dificultades académicas, requiere acompañamiento"
+4509,Cody Houston,7B,1.58,9,1,Requiere apoyo emocional y refuerzo académico
+4056,Pamela Barnes,7B,4.39,8,7,Excelente rendimiento y actitud positiva
+3549,Timothy Gomez,7B,3.69,7,7,"Buen desempeño general, mantiene buena actitud"
+3500,Adrian Norris,7B,2,7,0,Requiere apoyo emocional y refuerzo académico
+3064,Rebecca Tate,7B,3.17,6,10,Participa activamente y mantiene buen desempeño
+3031,John Mckay,7B,3.55,6,4,"Desempeño aceptable, pero necesita apoyo emocional"
+3000,Shane Perez,7B,4.4,6,0,"Desempeño aceptable, pero necesita apoyo emocional"
+2505,Yolanda Jones,7B,2.9,5,1,Requiere apoyo emocional y refuerzo académico
+2068,Anthony Cardenas,7B,3.09,0,6,"Buen desempeño, pero presenta problemas de disciplina"
+2033,Michael Watson,7B,2.77,4,8,Bajo rendimiento y dificultades disciplinarias
+2026,Scott Flores,7B,2.75,4,6,Bajo rendimiento y dificultades disciplinarias
+2018,Brooke Green,7B,3.15,0,4,"Desempeño aceptable, pero necesita apoyo emocional"
+2004,Curtis Wood,7B,2.58,4,1,Bajo rendimiento y dificultades disciplinarias
+2006,Jennifer Stout,7B,3.11,4,0,"Desempeño aceptable, pero necesita apoyo emocional"
+2001,Jack Salas,7B,2.83,0,0,Bajo rendimiento y dificultades disciplinarias
+1524,Brian Espinoza,7B,4.99,3,8,"Buen desempeño, pero presenta problemas de disciplina"
+1515,Taylor Cochran,7B,2.06,3,4,Bajo rendimiento y dificultades disciplinarias
+1016,Brian Mitchell,7B,3.02,2,7,"Buen desempeño, pero presenta problemas de disciplina"
+522,Mike Smith,7B,1.69,1,2,Bajo rendimiento y dificultades disciplinarias
+525,Andrea Haynes,7B,4.05,1,2,"Desempeño aceptable, pero necesita apoyo emocional"
+5090,Mark Love,8A,2.61,10,9,"Dificultades académicas, requiere acompañamiento"
+4572,Nichole Cochran,8A,3.43,9,8,Participa activamente y mantiene buen desempeño
+4072,Brenda Smith,8A,2.14,8,9,"Dificultades académicas, requiere acompañamiento"
+4032,James Lopez,8A,4.03,8,4,"Desempeño aceptable, pero necesita apoyo emocional"
+4016,Richard Sanders,8A,2.76,8,2,Requiere apoyo emocional y refuerzo académico
+3541,Dr. David Ward,8A,1.59,7,1,Requiere apoyo emocional y refuerzo académico
+3024,Christian Cummings,8A,2.14,6,4,Requiere apoyo emocional y refuerzo académico
+3018,Kimberly Thomas,8A,1.66,6,3,Requiere apoyo emocional y refuerzo académico
+3007,Jose Fox,8A,1.93,6,1,Requiere apoyo emocional y refuerzo académico
+3004,Ryan Mitchell,8A,4.01,6,10,"Buen desempeño general, mantiene buena actitud"
+2565,Kayla Berry,8A,2.62,5,4,Requiere apoyo emocional y refuerzo académico
+2040,Jennifer Rodriguez,8A,2.82,0,10,Bajo rendimiento y dificultades disciplinarias
+1548,Gabriela Jackson,8A,1.27,3,1,Bajo rendimiento y dificultades disciplinarias
+1531,Steven Taylor,8A,1.82,3,10,Bajo rendimiento y dificultades disciplinarias
+1500,Robin Quinn,8A,4.91,3,0,"Desempeño aceptable, pero necesita apoyo emocional"
+1018,Samuel Perkins,8A,3.22,2,9,"Buen desempeño, pero presenta problemas de disciplina"
+510,Mitchell Swanson,8A,4.58,1,10,"Buen desempeño, pero presenta problemas de disciplina"
+503,David Weber,8A,1.35,1,3,Bajo rendimiento y dificultades disciplinarias
 
