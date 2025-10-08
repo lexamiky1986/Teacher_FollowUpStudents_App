@@ -31,7 +31,6 @@ def cargar_datos():
 def guardar_datos(df):
     df.to_csv(DATA_PATH, index=False, encoding="utf-8-sig")
 
-# Generar PDF de informe por grado
 def generar_pdf(grado, texto):
     pdf = FPDF()
     pdf.add_page()
@@ -111,10 +110,8 @@ elif menu == "🤖 Análisis e IA":
         st.warning("No hay datos disponibles.")
         st.stop()
 
-    # Entrenar modelo de agrupamiento (ML)
     df_analizado, modelo = entrenar_modelo(df)
 
-    # Aplicar análisis NLP por observación
     estrategias_docente = []
     estrategias_psico = []
     tonos = []
@@ -139,11 +136,9 @@ elif menu == "🤖 Análisis e IA":
     - **Clúster 2**: Riesgo académico o emocional, requiere apoyo.  
     """)
 
-    # Métricas agrupadas por grado
     st.subheader("Promedios por grado")
     st.bar_chart(df_analizado.groupby("Grado")[["Desempeño Académico", "Disciplina", "Aspecto Emocional"]].mean())
 
-    # Listado por clúster
     st.subheader("Listados de estudiantes por grupo")
     for cluster in sorted(df_analizado["Grupo"].unique()):
         st.markdown(f"### 🧩 Grupo {cluster}")
