@@ -1,176 +1,124 @@
-import random
-import re
+"""
+nlp_utils.py
+----------------
+Módulo de análisis de texto para observaciones docentes.
+Genera estrategias pedagógicas, psicoorientación y acciones con la familia
+basadas en procesamiento de lenguaje natural (NLP).
+"""
+
 from textblob import TextBlob
+import re
 
-# =============================
-# 🔍 ANALISIS DE TEXTO Y SENTIMIENTO
-# =============================
-
-def analizar_sentimiento(texto: str) -> str:
-    """Analiza el tono emocional de un texto: positivo, negativo o neutro."""
-    if not texto or len(texto.strip()) == 0:
-        return "neutro"
-
-    blob = TextBlob(texto)
-    polaridad = blob.sentiment.polarity
-
-    if polaridad > 0.1:
-        return "positivo"
-    elif polaridad < -0.1:
-        return "negativo"
-    else:
-        return "neutro"
-
-
-# =============================
-# 🧩 DETECCIÓN DE TEMAS CLAVE
-# =============================
-
-def detectar_temas(texto: str):
-    """Detecta temas relevantes en las observaciones del docente."""
-    texto = texto.lower()
-    temas = set()
-
-    palabras_clave = {
-        "ansiedad": ["ansioso", "estres", "nervioso", "inseguro", "presion"],
-        "liderazgo": ["lider", "guia", "influencia", "motiva", "apoya"],
-        "conflicto": ["pelea", "discusion", "conflicto", "agresivo", "intolerante"],
-        "bajo_rendimiento": ["bajo", "deficiente", "malo", "poca", "insuficiente"],
-        "excelente": ["excelente", "destacado", "alto", "sobresaliente", "avanzado"],
-        "desinteres": ["desinteres", "poco participativo", "aburrido", "no entrega"],
-        "emocional": ["triste", "deprimido", "ansioso", "angustiado", "afectivo"],
-        "familia": ["padre", "madre", "hogar", "familiar", "hermano"]
-    }
-
-    for categoria, lista_palabras in palabras_clave.items():
-        if any(palabra in texto for palabra in lista_palabras):
-            temas.add(categoria)
-
-    return list(temas)
-
-
-# =============================
-# 💡 GENERADOR DE ESTRATEGIAS DOCENTES Y PSICOSOCIALES
-# =============================
-
-def generar_estrategia_docente(row):
+# ---------------------------------------------------------------------
+# Función principal
+# ---------------------------------------------------------------------
+def analizar_observacion(texto: str):
     """
-    Genera una estrategia integral a partir de los puntajes y observaciones.
-    Combina análisis NLP con los datos académicos, disciplinarios y emocionales.
+    Analiza una observación escrita por el docente y devuelve:
+    - tono emocional (positivo / negativo / neutro)
+    - estrategia docente sugerida
+    - recomendación psicoorientadora o familiar
+
+    Retorna: (tono, estrategia_docente, estrategia_psico_familiar)
     """
+    if not texto or not isinstance(texto, str):
+        return ("neutro", "Monitoreo general del estudiante.", "Comunicación regular con la familia.")
 
-    texto = str(row.get("Observaciones Docente", "")).lower()
-    tono = analizar_sentimiento(texto)
-    temas = detectar_temas(texto)
+    texto_limpio = texto.strip().lower()
 
-    estrategias = []
-
-    # --- Estrategias según rendimiento ---
-    if row["Desempeño Académico"] < 3:
-        estrategias.append("Refuerzo académico individual y revisión de hábitos de estudio.")
-    elif row["Desempeño Académico"] >= 4.5:
-        estrategias.append("Asignar retos académicos y liderazgo en proyectos grupales.")
-
-    # --- Estrategias según disciplina ---
-    if row["Disciplina"] < 5:
-        estrategias.append("Implementar plan de mejora conductual con acompañamiento del docente orientador.")
-    elif row["Disciplina"] >= 8:
-        estrategias.append("Reconocer y mantener su buen comportamiento mediante refuerzos positivos.")
-
-    # --- Estrategias según aspecto emocional ---
-    if row["Aspecto Emocional"] < 6:
-        estrategias.append("Requiere intervención psicoorientadora y seguimiento emocional.")
-    elif row["Aspecto Emocional"] >= 8:
-        estrategias.append("Fortalecer liderazgo emocional y empatía con el grupo.")
-
-    # --- Estrategias específicas según NLP ---
-    estrategias_contextuales = {
-        "ansiedad": [
-            "Derivar a psicoorientación para manejo de ansiedad.",
-            "Aplicar ejercicios de respiración y relajación antes de evaluaciones."
-        ],
-        "liderazgo": [
-            "Promover tutorías entre pares y liderazgo en clase.",
-            "Fomentar participación en actividades escolares representativas."
-        ],
-        "conflicto": [
-            "Realizar mediación de conflictos y trabajo con convivencia escolar.",
-            "Coordinar reunión con padres para promover resolución pacífica de problemas."
-        ],
-        "bajo_rendimiento": [
-            "Revisar plan de estudio y estrategias pedagógicas diferenciadas.",
-            "Asignar acompañamiento docente en materias críticas."
-        ],
-        "excelente": [
-            "Fomentar autonomía y retos adicionales.",
-            "Motivar participación en concursos académicos."
-        ],
-        "desinteres": [
-            "Aplicar metodologías activas para captar su atención.",
-            "Planificar actividades lúdico-pedagógicas con relación a sus intereses."
-        ],
-        "emocional": [
-            "Derivar al área psicoorientadora para evaluación emocional.",
-            "Fomentar espacios de escucha y diálogo en clase."
-        ],
-        "familia": [
-            "Coordinar reunión con familia para fortalecer apoyo en el hogar.",
-            "Enviar informe de seguimiento y estrategias familiares de apoyo."
-        ]
-    }
-
-    for tema in temas:
-        if tema in estrategias_contextuales:
-            estrategias.append(random.choice(estrategias_contextuales[tema]))
-
-    # --- Estrategias generales según tono ---
-    if len(estrategias) == 0:
-        if tono == "positivo":
-            estrategias.append("Mantener estrategias actuales y reforzar su motivación.")
-        elif tono == "negativo":
-            estrategias.append("Identificar causas de dificultad y aplicar plan de mejora integral.")
+    # -------------------------------
+    # Análisis de sentimiento (TextBlob)
+    # -------------------------------
+    try:
+        blob = TextBlob(texto_limpio)
+        sentimiento = blob.sentiment.polarity
+        if sentimiento > 0.2:
+            tono = "positivo"
+        elif sentimiento < -0.2:
+            tono = "negativo"
         else:
-            estrategias.append("Continuar con seguimiento regular y observación constante.")
+            tono = "neutro"
+    except Exception:
+        tono = "neutro"
 
-    # --- Estrategia final combinada ---
-    estrategia_final = " ".join(estrategias)
+    # -------------------------------
+    # Palabras clave (para contexto)
+    # -------------------------------
+    academico_bajo = any(p in texto_limpio for p in ["bajo", "deficiente", "dificultad", "mejorar", "fracaso"])
+    academico_alto = any(p in texto_limpio for p in ["excelente", "destacado", "sobresaliente", "muy bueno"])
+    disciplina_baja = any(p in texto_limpio for p in ["indisciplina", "falta", "conflicto", "castigo", "problema"])
+    emocional_inestable = any(p in texto_limpio for p in ["ansioso", "estresado", "triste", "deprimido", "miedo", "aislado"])
+    liderazgo = any(p in texto_limpio for p in ["lider", "apoya", "coopera", "ejemplo", "ayuda"])
+    familia = any(p in texto_limpio for p in ["padre", "madre", "acudiente", "familia"])
 
-    # --- Área de intervención recomendada ---
-    if row["Aspecto Emocional"] < 6 or "emocional" in temas:
-        area = "Psicoorientación"
-    elif row["Disciplina"] < 5 or "conflicto" in temas:
-        area = "Convivencia escolar"
-    elif row["Desempeño Académico"] < 3:
-        area = "Refuerzo académico"
-    else:
-        area = "Seguimiento general"
+    # -------------------------------
+    # Generar estrategias
+    # -------------------------------
+    estrategia_docente = "Monitoreo y acompañamiento continuo."
+    estrategia_psico_familiar = "Comunicación periódica con la familia."
 
-    return estrategia_final, area
+    if academico_bajo:
+        estrategia_docente = "Diseñar plan de refuerzo académico personalizado y acompañar el proceso."
+        estrategia_psico_familiar = "Involucrar a la familia para reforzar hábitos de estudio en casa."
+    elif academico_alto:
+        estrategia_docente = "Fomentar retos académicos y liderazgo en el aula."
+        estrategia_psico_familiar = "Reconocer logros y fortalecer la motivación intrínseca."
+    elif disciplina_baja:
+        estrategia_docente = "Aplicar estrategias de disciplina positiva y trabajo colaborativo."
+        estrategia_psico_familiar = "Reforzar normas y límites desde el hogar."
+    elif emocional_inestable:
+        estrategia_docente = "Favorecer ambientes de confianza y apoyo emocional en clase."
+        estrategia_psico_familiar = "Remitir a orientación escolar y fomentar comunicación familiar."
+    elif liderazgo:
+        estrategia_docente = "Potenciar liderazgo y promover tutorías entre pares."
+        estrategia_psico_familiar = "Reconocer positivamente el compromiso del estudiante."
+    elif familia:
+        estrategia_docente = "Coordinar acciones conjuntas con los padres o acudientes."
+        estrategia_psico_familiar = "Orientar estrategias familiares para acompañamiento académico."
+
+    # Ajuste según el tono detectado
+    if tono == "negativo" and not emocional_inestable:
+        estrategia_docente += " Mantener seguimiento cercano para revertir tendencia negativa."
+    elif tono == "positivo":
+        estrategia_docente += " Reforzar los comportamientos positivos observados."
+
+    return (tono, estrategia_docente, estrategia_psico_familiar)
 
 
-# =============================
-# 🧾 FUNCIONES DE APOYO A PDF
-# =============================
-
-def generar_reporte_pdf_por_grado(df, grado):
+# ---------------------------------------------------------------------
+# Función auxiliar: generar estrategia para una fila (DataFrame)
+# ---------------------------------------------------------------------
+def generar_estrategias_para_fila(fila):
     """
-    Genera texto base para PDF por grado.
-    (El PDF se renderiza desde app.py con reportlab)
+    Recibe una fila de DataFrame con columna 'Observaciones Docente'
+    y devuelve una tupla con (estrategia_docente, estrategia_psico_familiar).
     """
-    estudiantes = df[df["Grado"] == grado]
+    texto = str(fila.get("Observaciones Docente", ""))
+    _, estrategia_docente, estrategia_psico_familiar = analizar_observacion(texto)
+    return estrategia_docente, estrategia_psico_familiar
 
-    reporte = []
-    reporte.append(f"REPORTE DE ESTRATEGIAS DOCENTES - GRADO {grado}\n")
-    reporte.append("=" * 80 + "\n\n")
 
-    for _, fila in estudiantes.iterrows():
-        estrategia, area = generar_estrategia_docente(fila)
-        reporte.append(f"👤 {fila['Nombre']} (ID: {fila['ID Estudiante']})\n")
-        reporte.append(f"📚 Académico: {fila['Desempeño Académico']:.2f} | "
-                       f"⚖️ Disciplina: {fila['Disciplina']} | "
-                       f"💬 Emocional: {fila['Aspecto Emocional']}\n")
-        reporte.append(f"🧠 Estrategia: {estrategia}\n")
-        reporte.append(f"🏫 Área Recomendada: {area}\n")
-        reporte.append("-" * 80 + "\n")
+# ---------------------------------------------------------------------
+# Función para generar texto completo de informe por grado
+# ---------------------------------------------------------------------
+def generar_texto_informe_por_grado(df, grado):
+    """
+    Genera un resumen textual de estrategias docentes para un grado específico.
+    """
+    df_grado = df[df["Grado"] == grado]
+    if df_grado.empty:
+        return f"No hay registros disponibles para el grado {grado}."
 
-    return "\n".join(reporte)
+    resumen = [f"📘 Informe general del grado {grado}\n"]
+
+    for _, fila in df_grado.iterrows():
+        nombre = fila.get("Nombre", "Estudiante")
+        observacion = fila.get("Observaciones Docente", "")
+        tono, estrategia_docente, estrategia_psico_familiar = analizar_observacion(observacion)
+        resumen.append(
+            f"— **{nombre}** ({tono}):\n"
+            f"  - Estrategia docente: {estrategia_docente}\n"
+            f"  - Psicoorientación / Familia: {estrategia_psico_familiar}\n"
+        )
+
+    return "\n".join(resumen)
