@@ -6,9 +6,9 @@ from nlp_utils import analizar_observacion, generar_pdf_por_grado
 
 st.set_page_config(page_title="📘 Seguimiento Docente Integral", layout="wide")
 
-# =========================================================
-# 📂 Cargar y guardar datos
-# =========================================================
+# ===========================
+# Cargar y guardar datos
+# ===========================
 @st.cache_data
 def cargar_datos():
     try:
@@ -26,9 +26,9 @@ def guardar_datos(df):
 
 df = cargar_datos()
 
-# =========================================================
-# 🧭 Menú lateral
-# =========================================================
+# ===========================
+# Menú lateral
+# ===========================
 menu = st.sidebar.selectbox(
     "Menú Principal",
     [
@@ -39,16 +39,15 @@ menu = st.sidebar.selectbox(
     ]
 )
 
-# =========================================================
-# 📊 Ver datos
-# =========================================================
+# ===========================
+# Ver Datos
+# ===========================
 if menu == "📊 Ver Datos":
     st.header("📚 Seguimiento Académico, Disciplinario y Emocional")
 
     if df.empty:
         st.warning("⚠️ No hay datos disponibles todavía.")
     else:
-        # Selector de grado o vista general
         grados = ["Todos"] + sorted(df["Grado"].dropna().unique().tolist())
         grado_seleccionado = st.selectbox("Filtrar por grado:", grados)
 
@@ -57,27 +56,24 @@ if menu == "📊 Ver Datos":
         else:
             df_filtrado = df.copy()
 
-        # Calcular promedio general o por grado
         col1, col2, col3 = st.columns(3)
         col1.metric("📘 Promedio Académico", round(df_filtrado["Desempeño Académico"].astype(float).mean(), 2))
         col2.metric("🧭 Promedio Disciplina", round(df_filtrado["Disciplina"].astype(float).mean(), 2))
         col3.metric("💚 Promedio Emocional", round(df_filtrado["Aspecto Emocional"].astype(float).mean(), 2))
 
-        # Crear columna de promedio total
         df_filtrado["Promedio Total"] = (
             df_filtrado["Desempeño Académico"].astype(float) * 2 +
             df_filtrado["Disciplina"].astype(float) / 2 +
             df_filtrado["Aspecto Emocional"].astype(float) / 2
         ) / 3
 
-        # Asignar color según desempeño
         def color_fila(valor):
             if valor < 3.0:
-                return "background-color: #ffb3b3;"  # Rojo claro
+                return "background-color: #ffb3b3;"
             elif valor < 4.0:
-                return "background-color: #fff0b3;"  # Naranja
+                return "background-color: #fff0b3;"
             else:
-                return "background-color: #b3ffb3;"  # Verde
+                return "background-color: #b3ffb3;"
 
         styled_df = df_filtrado.style.apply(
             lambda row: [color_fila(row["Promedio Total"])] * len(row),
@@ -86,50 +82,36 @@ if menu == "📊 Ver Datos":
 
         st.dataframe(styled_df, use_container_width=True)
 
-# =========================================================
-# ✏️ Agregar o actualizar estudiante
-# =========================================================
+# ===========================
+# Agregar o Actualizar Estudiante
+# ===========================
 elif menu == "✏️ Actualizar o Agregar Estudiante":
     st.header("✏️ Actualizar o Agregar Estudiante")
 
-    # Dropdown de grados
     grados_existentes = sorted(df["Grado"].dropna().unique())
     grado = st.selectbox("Selecciona el grado", grados_existentes + ["Nuevo grado"])
-
     if grado == "Nuevo grado":
         grado = st.text_input("Escribe el nuevo grado:")
 
-    # Dropdown de estudiante
     estudiantes_grado = df[df["Grado"] == grado]["Nombre"].tolist() if grado else []
     nombre = st.selectbox("Selecciona un estudiante o Nuevo estudiante", estudiantes_grado + ["Nuevo estudiante"])
-
-    # Si es nuevo estudiante, pedir nombre
     if nombre == "Nuevo estudiante":
         nombre = st.text_input("Escribe el nombre del estudiante:")
 
     if nombre:
-        # Verificar existencia
         existe = ((df["Grado"] == grado) & (df["Nombre"].str.lower() == nombre.lower())).any()
-
         if existe:
             st.subheader(f"📄 Editar datos de {nombre} ({grado})")
             estudiante = df[(df["Grado"] == grado) & (df["Nombre"].str.lower() == nombre.lower())].iloc[0]
         else:
             st.subheader(f"🆕 Registrar nuevo estudiante ({grado})")
-            estudiante = {
-                "Desempeño Académico": 3.0,
-                "Disciplina": 5,
-                "Aspecto Emocional": 5,
-                "Observaciones Docente": ""
-            }
+            estudiante = {"Desempeño Académico": 3.0, "Disciplina": 5, "Aspecto Emocional": 5, "Observaciones Docente": ""}
 
-        # Formulario
         with st.form("form_estudiante"):
             nuevo_academico = st.slider("Desempeño Académico (1.0 - 5.0)", 1.0, 5.0, float(estudiante["Desempeño Académico"]))
             nueva_disciplina = st.slider("Disciplina (0 - 10)", 0, 10, int(estudiante["Disciplina"]))
             nuevo_emocional = st.slider("Aspecto Emocional (0 - 10)", 0, 10, int(estudiante["Aspecto Emocional"]))
             nuevas_observaciones = st.text_area("Observaciones Docente", value=estudiante["Observaciones Docente"])
-
             submit = st.form_submit_button("💾 Guardar Cambios")
 
             if submit:
@@ -158,21 +140,18 @@ elif menu == "✏️ Actualizar o Agregar Estudiante":
 
                 guardar_datos(df)
 
-# =========================================================
-# 🤖 Análisis con IA
-# =========================================================
+# ===========================
+# Análisis con ML + NLP
+# ===========================
 elif menu == "🤖 Análisis e IA":
     st.header("🤖 Análisis con Machine Learning y NLP")
 
     if not df.empty:
         df_ml, modelo = entrenar_modelo(df)
-
-        # Asegurar columna 'Grupo'
         if "Grupo" not in df_ml.columns:
             df_ml["Grupo"] = modelo.labels_
 
-        st.dataframe(df_ml[["ID", "Nombre", "Grado", "Desempeño Académico",
-                            "Disciplina", "Aspecto Emocional", "Grupo"]])
+        st.dataframe(df_ml[["ID","Nombre","Grado","Desempeño Académico","Disciplina","Aspecto Emocional","Grupo"]])
 
         st.markdown("""
         **Interpretación de los grupos (clusters):**
@@ -184,9 +163,8 @@ elif menu == "🤖 Análisis e IA":
         st.subheader("🧠 Estrategias generadas con NLP:")
 
         nombre_seleccionado = st.selectbox("Selecciona un estudiante para analizar observaciones", df["Nombre"].unique())
-        observaciones_list = df[df["Nombre"] == nombre_seleccionado]["Observaciones Docente"].values
-        obs = observaciones_list[0] if len(observaciones_list) > 0 else ""
-
+        obs_series = df.loc[df["Nombre"] == nombre_seleccionado, "Observaciones Docente"]
+        obs = obs_series.values[0] if not obs_series.empty else ""
         tono, estrategia_doc, estrategia_psico = analizar_observacion(str(obs))
 
         st.info(f"**Observación:** {obs}")
@@ -197,24 +175,11 @@ elif menu == "🤖 Análisis e IA":
     else:
         st.warning("No hay datos para analizar. Agrega estudiantes primero.")
 
-# =========================================================
-# 📄 Generar PDF por grado
-# =========================================================
+# ===========================
+# Generar PDF por grado
+# ===========================
 elif menu == "📄 Generar Informe PDF por Grado":
     st.header("📄 Generar Informe Consolidado por Grado")
 
     if not df.empty:
-        grado = st.selectbox("Selecciona el grado", sorted(df["Grado"].unique()))
-        if st.button("🖨️ Generar PDF"):
-            ruta = f"informe_{grado}.pdf"
-            ruta_pdf = generar_pdf_por_grado(df, grado, ruta)
-            with open(ruta_pdf, "rb") as f:
-                st.download_button(
-                    label="⬇️ Descargar Informe PDF",
-                    data=f,
-                    file_name=f"informe_{grado}.pdf",
-                    mime="application/pdf"
-                )
-            st.success(f"Informe generado exitosamente para el grado {grado}.")
-    else:
-        st.warning("No hay información disponible para generar informes.")
+        grado = st.selectbox("Selecciona el grado", sorted(df["Gr
