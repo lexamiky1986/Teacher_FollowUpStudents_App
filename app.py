@@ -11,10 +11,10 @@ st.title("📘 Seguimiento Académico, Disciplinario y Emocional")
 # --- Cargar datos ---
 @st.cache_data
 def cargar_datos():
-    return pd.read_csv("data/datos_estudiantes.csv")
+    return pd.read_csv("data/students_data.csv")
 
 def guardar_datos(df):
-    df.to_csv("data/datos_estudiantes.csv", index=False, encoding="utf-8-sig")
+    df.to_csv("data/students_data.csv", index=False, encoding="utf-8-sig")
 
 df = cargar_datos()
 
