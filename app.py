@@ -15,7 +15,7 @@ def cargar_datos():
         df = pd.read_csv("data/students_data.csv")
     except FileNotFoundError:
         df = pd.DataFrame(columns=[
-            "Nombre", "Grado", "Desempeño Académico",
+            "ID", "Nombre", "Grado", "Desempeño Académico",
             "Disciplina", "Aspecto Emocional", "Observaciones Docente",
             "Última Actualización"
         ])
@@ -44,15 +44,47 @@ menu = st.sidebar.selectbox(
 # =========================================================
 if menu == "📊 Ver Datos":
     st.header("📚 Seguimiento Académico, Disciplinario y Emocional")
-    st.dataframe(df, use_container_width=True)
 
-    if not df.empty:
-        col1, col2, col3 = st.columns(3)
-        col1.metric("Promedio Académico", round(df["Desempeño Académico"].astype(float).mean(), 2))
-        col2.metric("Promedio Disciplina", round(df["Disciplina"].astype(float).mean(), 2))
-        col3.metric("Promedio Emocional", round(df["Aspecto Emocional"].astype(float).mean(), 2))
+    if df.empty:
+        st.warning("⚠️ No hay datos disponibles todavía.")
     else:
-        st.info("Aún no hay datos registrados.")
+        # Selector de grado o vista general
+        grados = ["Todos"] + sorted(df["Grado"].dropna().unique().tolist())
+        grado_seleccionado = st.selectbox("Filtrar por grado:", grados)
+
+        if grado_seleccionado != "Todos":
+            df_filtrado = df[df["Grado"] == grado_seleccionado].copy()
+        else:
+            df_filtrado = df.copy()
+
+        # Calcular promedio general o por grado
+        col1, col2, col3 = st.columns(3)
+        col1.metric("📘 Promedio Académico", round(df_filtrado["Desempeño Académico"].astype(float).mean(), 2))
+        col2.metric("🧭 Promedio Disciplina", round(df_filtrado["Disciplina"].astype(float).mean(), 2))
+        col3.metric("💚 Promedio Emocional", round(df_filtrado["Aspecto Emocional"].astype(float).mean(), 2))
+
+        # Crear columna de promedio total
+        df_filtrado["Promedio Total"] = (
+            df_filtrado["Desempeño Académico"].astype(float) * 2 +
+            df_filtrado["Disciplina"].astype(float) / 2 +
+            df_filtrado["Aspecto Emocional"].astype(float) / 2
+        ) / 3
+
+        # Asignar color según desempeño
+        def color_fila(valor):
+            if valor < 3.0:
+                return "background-color: #ffb3b3;"  # Rojo claro
+            elif valor < 4.0:
+                return "background-color: #fff0b3;"  # Naranja
+            else:
+                return "background-color: #b3ffb3;"  # Verde
+
+        styled_df = df_filtrado.style.apply(
+            lambda row: [color_fila(row["Promedio Total"])] * len(row),
+            axis=1
+        )
+
+        st.dataframe(styled_df, use_container_width=True)
 
 # =========================================================
 # ✏️ Agregar o actualizar estudiante
@@ -67,7 +99,6 @@ elif menu == "✏️ Actualizar o Agregar Estudiante":
     if grado == "Nuevo Grado":
         grado = st.text_input("Escribe el nuevo grado:")
 
-    nombres_existentes = df["Nombre"].unique().tolist()
     nombre = st.text_input("Nombre del estudiante:")
 
     if nombre:
@@ -103,7 +134,9 @@ elif menu == "✏️ Actualizar o Agregar Estudiante":
                     df.loc[idx, "Última Actualización"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                     st.success(f"✅ Datos de {nombre} actualizados correctamente.")
                 else:
+                    nuevo_id = df["ID"].max() + 1 if "ID" in df.columns and not df.empty else 1200
                     nuevo = pd.DataFrame([{
+                        "ID": int(nuevo_id),
                         "Nombre": nombre,
                         "Grado": grado,
                         "Desempeño Académico": nuevo_academico,
@@ -125,7 +158,7 @@ elif menu == "🤖 Análisis e IA":
 
     if not df.empty:
         df_ml, modelo = entrenar_modelo(df)
-        st.dataframe(df_ml[["Nombre", "Grado", "Desempeño Académico", "Disciplina", "Aspecto Emocional", "Grupo"]])
+        st.dataframe(df_ml[["ID", "Nombre", "Grado", "Desempeño Académico", "Disciplina", "Aspecto Emocional", "Grupo"]])
 
         st.markdown("""
         **Interpretación de los grupos (clusters):**
