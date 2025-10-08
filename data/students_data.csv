@@ -1,151 +1,61 @@
-student_id,name,grade,academic_score,disciplinary_score,emotional_score,teacher_observation
-13310,Albano Llopis Hierro,9°,2.5,2,4,Presenta dificultades en el aprendizaje y requiere apoyo adicional. Se observa baja motivación o aislamiento social. Requiere acompañamiento en disciplina y respeto por las normas.
-12229,Buenaventura de Bonet,11°,3.9,10,8,Muestra interés irregular en las actividades. Mantiene una actitud emocionalmente estable y empática. Es un referente positivo en convivencia y disciplina.
-12052,Ileana Antón-Andrés,11°,2.4,1,3,Presenta dificultades en el aprendizaje y requiere apoyo adicional. Se observa baja motivación o aislamiento social. Requiere acompañamiento en disciplina y respeto por las normas.
-13519,César Guerrero Vazquez,11°,4.5,7,10,Estudiante responsable y comprometido con el aprendizaje. Mantiene una actitud emocionalmente estable y empática.
-12564,Alba Mar Flor Rivas,11°,2.2,4,1,Presenta dificultades en el aprendizaje y requiere apoyo adicional. Se observa baja motivación o aislamiento social. Requiere acompañamiento en disciplina y respeto por las normas.
-12502,Jacobo del Agudo,8°,4.1,6,10,Demuestra liderazgo académico y actitud positiva. Mantiene una actitud emocionalmente estable y empática.
-12458,Paco Rocamora Nieto,9°,1.1,1,0,Presenta dificultades en el aprendizaje y requiere apoyo adicional. Se observa baja motivación o aislamiento social. Requiere acompañamiento en disciplina y respeto por las normas.
-12286,Casemiro Garrido-Navarro,10°,4.8,6,10,Estudiante responsable y comprometido con el aprendizaje. Mantiene una actitud emocionalmente estable y empática.
-13509,Arturo Pinto Caballero,7°,3.6,8,2,Muestra interés irregular en las actividades. Se observa baja motivación o aislamiento social.
-12210,Soraya Núñez Lamas,10°,4.5,10,7,Participa activamente y mantiene un buen desempeño. Es un referente positivo en convivencia y disciplina.
-13386,Pánfilo Segovia Casanovas,8°,2.6,2,3,"Bajo rendimiento general, falta de concentración. Se observa baja motivación o aislamiento social. Requiere acompañamiento en disciplina y respeto por las normas."
-13517,Ani Marcos Pardo,9°,1.5,2,0,"Bajo rendimiento general, falta de concentración. Se observa baja motivación o aislamiento social. Requiere acompañamiento en disciplina y respeto por las normas."
-13117,Celia Baños-Arroyo,10°,1.9,0,5,"Bajo rendimiento general, falta de concentración. Requiere acompañamiento en disciplina y respeto por las normas."
-12179,Rolando del Bernal,6°,1.9,0,4,Presenta dificultades en el aprendizaje y requiere apoyo adicional. Se observa baja motivación o aislamiento social. Requiere acompañamiento en disciplina y respeto por las normas.
-13210,Toribio de Pinto,8°,3.7,3,8,Se esfuerza pero necesita reforzar algunos temas. Mantiene una actitud emocionalmente estable y empática. Requiere acompañamiento en disciplina y respeto por las normas.
-12865,Javi Patiño-Cánovas,11°,4.7,9,7,Demuestra liderazgo académico y actitud positiva. Es un referente positivo en convivencia y disciplina.
-12066,Felicidad Gallego Lasa,9°,1.8,3,2,No entrega tareas a tiempo y se distrae con frecuencia. Se observa baja motivación o aislamiento social. Requiere acompañamiento en disciplina y respeto por las normas.
-12062,Marco Donoso Hierro,9°,2.9,5,5,Presenta dificultades en el aprendizaje y requiere apoyo adicional.
-12192,Jerónimo Pino Lerma,6°,2.6,1,1,Presenta dificultades en el aprendizaje y requiere apoyo adicional. Se observa baja motivación o aislamiento social. Requiere acompañamiento en disciplina y respeto por las normas.
-12448,Constanza del Barba,10°,2.8,2,3,Presenta dificultades en el aprendizaje y requiere apoyo adicional. Se observa baja motivación o aislamiento social. Requiere acompañamiento en disciplina y respeto por las normas.
-12477,Segismundo de Moles,6°,2.8,0,5,"Bajo rendimiento general, falta de concentración. Requiere acompañamiento en disciplina y respeto por las normas."
-13035,Edelmira Batalla Galván,6°,4.9,9,9,Demuestra liderazgo académico y actitud positiva. Mantiene una actitud emocionalmente estable y empática. Es un referente positivo en convivencia y disciplina.
-13233,Valentina Miranda-Garcia,7°,4.5,9,6,Demuestra liderazgo académico y actitud positiva. Es un referente positivo en convivencia y disciplina.
-12055,Gertrudis Segarra Clavero,8°,4.7,9,10,Participa activamente y mantiene un buen desempeño. Mantiene una actitud emocionalmente estable y empática. Es un referente positivo en convivencia y disciplina.
-13150,Buenaventura Huerta-Jódar,11°,2.9,1,0,"Bajo rendimiento general, falta de concentración. Se observa baja motivación o aislamiento social. Requiere acompañamiento en disciplina y respeto por las normas."
-12408,Inés Pujol-Paredes,11°,3.2,5,0,Se esfuerza pero necesita reforzar algunos temas. Se observa baja motivación o aislamiento social.
-13467,Bruno del Bou,10°,2.9,0,4,Presenta dificultades en el aprendizaje y requiere apoyo adicional. Se observa baja motivación o aislamiento social. Requiere acompañamiento en disciplina y respeto por las normas.
-13331,Tito Canals Coronado,7°,1.3,6,1,No entrega tareas a tiempo y se distrae con frecuencia. Se observa baja motivación o aislamiento social.
-13437,Ruy Roca Bartolomé,6°,4.8,10,10,Estudiante responsable y comprometido con el aprendizaje. Mantiene una actitud emocionalmente estable y empática. Es un referente positivo en convivencia y disciplina.
-12860,Francisca Solé Ángel,10°,1.3,4,4,No entrega tareas a tiempo y se distrae con frecuencia. Se observa baja motivación o aislamiento social. Requiere acompañamiento en disciplina y respeto por las normas.
-12452,Leonel Alberdi-Carbó,8°,1.8,2,3,Presenta dificultades en el aprendizaje y requiere apoyo adicional. Se observa baja motivación o aislamiento social. Requiere acompañamiento en disciplina y respeto por las normas.
-12920,Pili del Nieto,11°,3.6,7,5,Se esfuerza pero necesita reforzar algunos temas.
-13207,Eugenio Royo Cruz,6°,2.8,0,4,Presenta dificultades en el aprendizaje y requiere apoyo adicional. Se observa baja motivación o aislamiento social. Requiere acompañamiento en disciplina y respeto por las normas.
-12570,Abril Lago Valle,10°,2.1,1,2,No entrega tareas a tiempo y se distrae con frecuencia. Se observa baja motivación o aislamiento social. Requiere acompañamiento en disciplina y respeto por las normas.
-13658,José Luis Camino Martín,7°,2.8,4,6,"Bajo rendimiento general, falta de concentración. Requiere acompañamiento en disciplina y respeto por las normas."
-12014,María Fernanda Flor,10°,1.0,5,0,Presenta dificultades en el aprendizaje y requiere apoyo adicional. Se observa baja motivación o aislamiento social.
-13555,Glauco Cuéllar Abascal,8°,1.5,1,2,No entrega tareas a tiempo y se distrae con frecuencia. Se observa baja motivación o aislamiento social. Requiere acompañamiento en disciplina y respeto por las normas.
-13651,Etelvina Laura Aliaga Caparrós,10°,1.8,5,5,No entrega tareas a tiempo y se distrae con frecuencia.
-12327,Valeria Meléndez Heras,10°,3.0,0,1,A veces cumple con los compromisos académicos. Se observa baja motivación o aislamiento social. Requiere acompañamiento en disciplina y respeto por las normas.
-13430,Dionisio Bermúdez Boada,9°,4.3,8,7,Participa activamente y mantiene un buen desempeño.
-12866,Sabina Bayón Casas,8°,1.6,5,3,"Bajo rendimiento general, falta de concentración. Se observa baja motivación o aislamiento social."
-12697,Narciso Talavera Dalmau,6°,1.4,0,6,No entrega tareas a tiempo y se distrae con frecuencia. Requiere acompañamiento en disciplina y respeto por las normas.
-12319,Juan Luis Rocha-Galán,10°,3.2,6,2,Se esfuerza pero necesita reforzar algunos temas. Se observa baja motivación o aislamiento social.
-12441,Priscila de Mesa,8°,2.5,1,5,Presenta dificultades en el aprendizaje y requiere apoyo adicional. Requiere acompañamiento en disciplina y respeto por las normas.
-13564,Nazaret Perea Ríos,11°,1.4,4,5,Presenta dificultades en el aprendizaje y requiere apoyo adicional. Requiere acompañamiento en disciplina y respeto por las normas.
-12690,Jennifer Carrillo,7°,4.5,6,7,Participa activamente y mantiene un buen desempeño.
-12190,Daniel de Neira,8°,4.1,7,8,Estudiante responsable y comprometido con el aprendizaje. Mantiene una actitud emocionalmente estable y empática.
-12779,Macario Grau Giménez,11°,1.4,1,1,No entrega tareas a tiempo y se distrae con frecuencia. Se observa baja motivación o aislamiento social. Requiere acompañamiento en disciplina y respeto por las normas.
-12199,Andrés Felipe Barral Granados,8°,2.2,0,5,Presenta dificultades en el aprendizaje y requiere apoyo adicional. Requiere acompañamiento en disciplina y respeto por las normas.
-12736,Víctor Angulo Murillo,9°,2.3,2,5,"Bajo rendimiento general, falta de concentración. Requiere acompañamiento en disciplina y respeto por las normas."
-12705,José Ángel Gárate Lopez,9°,3.7,8,5,Se esfuerza pero necesita reforzar algunos temas.
-13237,Clotilde Catalán Suárez,6°,4.5,10,8,Estudiante responsable y comprometido con el aprendizaje. Mantiene una actitud emocionalmente estable y empática. Es un referente positivo en convivencia y disciplina.
-12542,Ruben del Ramírez,6°,3.4,5,5,Muestra interés irregular en las actividades.
-13653,Asdrubal Caballero,10°,4.9,10,7,Demuestra liderazgo académico y actitud positiva. Es un referente positivo en convivencia y disciplina.
-12089,Felicidad Roda Reig,6°,3.8,0,8,A veces cumple con los compromisos académicos. Mantiene una actitud emocionalmente estable y empática. Requiere acompañamiento en disciplina y respeto por las normas.
-13495,Teresa Balaguer Cabello,11°,3.9,10,3,Muestra interés irregular en las actividades. Se observa baja motivación o aislamiento social. Es un referente positivo en convivencia y disciplina.
-12941,Heriberto Nicolau Canales,9°,1.3,4,2,"Bajo rendimiento general, falta de concentración. Se observa baja motivación o aislamiento social. Requiere acompañamiento en disciplina y respeto por las normas."
-13099,Clemente de Sanabria,6°,3.9,4,8,Muestra interés irregular en las actividades. Mantiene una actitud emocionalmente estable y empática. Requiere acompañamiento en disciplina y respeto por las normas.
-12256,Héctor Español Lopez,11°,2.6,4,1,Presenta dificultades en el aprendizaje y requiere apoyo adicional. Se observa baja motivación o aislamiento social. Requiere acompañamiento en disciplina y respeto por las normas.
-12776,Diana Benet Salazar,9°,3.7,6,10,A veces cumple con los compromisos académicos. Mantiene una actitud emocionalmente estable y empática.
-12162,Ariel de Alcolea,7°,3.5,4,6,A veces cumple con los compromisos académicos. Requiere acompañamiento en disciplina y respeto por las normas.
-13131,Renato Guzmán Delgado,6°,2.2,6,4,"Bajo rendimiento general, falta de concentración. Se observa baja motivación o aislamiento social."
-12601,Julieta Teruel García,11°,2.3,5,1,"Bajo rendimiento general, falta de concentración. Se observa baja motivación o aislamiento social."
-13288,Yaiza Barral Cózar,9°,4.2,6,8,Participa activamente y mantiene un buen desempeño. Mantiene una actitud emocionalmente estable y empática.
-13267,Abril Portero Lara,11°,3.5,5,1,Se esfuerza pero necesita reforzar algunos temas. Se observa baja motivación o aislamiento social.
-12741,Eloísa Rocha Torrecilla,11°,2.2,0,0,Presenta dificultades en el aprendizaje y requiere apoyo adicional. Se observa baja motivación o aislamiento social. Requiere acompañamiento en disciplina y respeto por las normas.
-13183,Claudio Martin Gelabert,9°,3.4,1,7,Muestra interés irregular en las actividades. Requiere acompañamiento en disciplina y respeto por las normas.
-12394,Luis Miguel Barrera Mir,11°,3.3,6,7,Muestra interés irregular en las actividades.
-13443,Amador Tapia Valverde,7°,1.6,6,3,Presenta dificultades en el aprendizaje y requiere apoyo adicional. Se observa baja motivación o aislamiento social.
-12143,Camila Barberá,7°,4.2,6,10,Estudiante responsable y comprometido con el aprendizaje. Mantiene una actitud emocionalmente estable y empática.
-12094,Anita Estevez,6°,2.8,4,4,"Bajo rendimiento general, falta de concentración. Se observa baja motivación o aislamiento social. Requiere acompañamiento en disciplina y respeto por las normas."
-13355,Manuel Bayo Gutierrez,8°,4.8,10,9,Participa activamente y mantiene un buen desempeño. Mantiene una actitud emocionalmente estable y empática. Es un referente positivo en convivencia y disciplina.
-12467,Azeneth Hoz Ariño,9°,4.6,8,7,Participa activamente y mantiene un buen desempeño.
-13584,Anita Hortensia Yáñez Molina,8°,4.1,7,8,Demuestra liderazgo académico y actitud positiva. Mantiene una actitud emocionalmente estable y empática.
-12593,Cristian Miralles-Gómez,6°,3.9,3,4,Muestra interés irregular en las actividades. Se observa baja motivación o aislamiento social. Requiere acompañamiento en disciplina y respeto por las normas.
-12164,Hector Castro-Marín,8°,4.6,7,7,Demuestra liderazgo académico y actitud positiva.
-12207,Estela Belmonte Agustí,11°,1.6,3,3,No entrega tareas a tiempo y se distrae con frecuencia. Se observa baja motivación o aislamiento social. Requiere acompañamiento en disciplina y respeto por las normas.
-12929,María Ángeles Cabo Beltrán,10°,2.9,6,3,No entrega tareas a tiempo y se distrae con frecuencia. Se observa baja motivación o aislamiento social.
-13302,Clotilde del Cazorla,10°,4.8,9,9,Estudiante responsable y comprometido con el aprendizaje. Mantiene una actitud emocionalmente estable y empática. Es un referente positivo en convivencia y disciplina.
-12748,Vera Bayona Hidalgo,8°,2.2,4,5,"Bajo rendimiento general, falta de concentración. Requiere acompañamiento en disciplina y respeto por las normas."
-12334,Elodia Cruz Ríos,10°,4.2,7,8,Demuestra liderazgo académico y actitud positiva. Mantiene una actitud emocionalmente estable y empática.
-12759,Ofelia del Ángel,9°,1.1,5,6,No entrega tareas a tiempo y se distrae con frecuencia.
-12728,Nazario Marí Calleja,11°,1.7,4,4,Presenta dificultades en el aprendizaje y requiere apoyo adicional. Se observa baja motivación o aislamiento social. Requiere acompañamiento en disciplina y respeto por las normas.
-12430,Eligio Carlos Campo,9°,3.4,10,0,Se esfuerza pero necesita reforzar algunos temas. Se observa baja motivación o aislamiento social. Es un referente positivo en convivencia y disciplina.
-13373,Calixta del Luján,11°,2.7,0,2,No entrega tareas a tiempo y se distrae con frecuencia. Se observa baja motivación o aislamiento social. Requiere acompañamiento en disciplina y respeto por las normas.
-12547,Clementina Paca Novoa Frutos,8°,1.8,6,3,No entrega tareas a tiempo y se distrae con frecuencia. Se observa baja motivación o aislamiento social.
-13438,José Antonio Torres-Iglesias,9°,2.0,0,5,"Bajo rendimiento general, falta de concentración. Requiere acompañamiento en disciplina y respeto por las normas."
-13400,Arturo Roda Lloret,6°,5.0,6,6,Estudiante responsable y comprometido con el aprendizaje.
-13328,Abel Múgica Castrillo,7°,1.8,1,1,Presenta dificultades en el aprendizaje y requiere apoyo adicional. Se observa baja motivación o aislamiento social. Requiere acompañamiento en disciplina y respeto por las normas.
-12147,Cecilio Sala-Roma,9°,3.7,9,3,Muestra interés irregular en las actividades. Se observa baja motivación o aislamiento social. Es un referente positivo en convivencia y disciplina.
-13248,Adelia de Benet,11°,2.0,4,4,"Bajo rendimiento general, falta de concentración. Se observa baja motivación o aislamiento social. Requiere acompañamiento en disciplina y respeto por las normas."
-13301,Leandro Araujo Peiró,11°,1.5,0,4,Presenta dificultades en el aprendizaje y requiere apoyo adicional. Se observa baja motivación o aislamiento social. Requiere acompañamiento en disciplina y respeto por las normas.
-12351,Mamen Colomer-Ropero,8°,3.3,6,6,A veces cumple con los compromisos académicos.
-13094,Alfonso Mendez Pastor,7°,1.3,0,5,No entrega tareas a tiempo y se distrae con frecuencia. Requiere acompañamiento en disciplina y respeto por las normas.
-13494,Vinicio Pallarès Gallo,11°,3.4,1,9,Se esfuerza pero necesita reforzar algunos temas. Mantiene una actitud emocionalmente estable y empática. Requiere acompañamiento en disciplina y respeto por las normas.
-12335,Nazario de Otero,8°,3.1,10,5,Se esfuerza pero necesita reforzar algunos temas. Es un referente positivo en convivencia y disciplina.
-12947,Verónica del Cortes,10°,3.6,0,6,Muestra interés irregular en las actividades. Requiere acompañamiento en disciplina y respeto por las normas.
-12778,Toni de Elorza,6°,2.7,6,3,"Bajo rendimiento general, falta de concentración. Se observa baja motivación o aislamiento social."
-12553,Aitana Escobar Márquez,7°,2.7,2,4,"Bajo rendimiento general, falta de concentración. Se observa baja motivación o aislamiento social. Requiere acompañamiento en disciplina y respeto por las normas."
-13311,Rosario Hurtado Lasa,9°,2.9,2,6,Presenta dificultades en el aprendizaje y requiere apoyo adicional. Requiere acompañamiento en disciplina y respeto por las normas.
-13410,Rufino Campoy Piñeiro,6°,2.1,6,3,"Bajo rendimiento general, falta de concentración. Se observa baja motivación o aislamiento social."
-13141,Timoteo Sosa Girón,10°,3.7,5,0,Muestra interés irregular en las actividades. Se observa baja motivación o aislamiento social.
-12450,Sebastian Seguí,8°,1.7,6,2,No entrega tareas a tiempo y se distrae con frecuencia. Se observa baja motivación o aislamiento social.
-13403,Encarnación Goñi Gisbert,8°,4.5,6,10,Estudiante responsable y comprometido con el aprendizaje. Mantiene una actitud emocionalmente estable y empática.
-12665,Narciso Ferrando Pujadas,6°,2.0,4,6,Presenta dificultades en el aprendizaje y requiere apoyo adicional. Requiere acompañamiento en disciplina y respeto por las normas.
-13574,Eligia Baños Lorenzo,11°,2.9,6,0,Presenta dificultades en el aprendizaje y requiere apoyo adicional. Se observa baja motivación o aislamiento social.
-13590,Miguela Vergara Pulido,8°,1.9,5,4,No entrega tareas a tiempo y se distrae con frecuencia. Se observa baja motivación o aislamiento social.
-12115,Eusebia de Carlos,9°,3.2,5,6,A veces cumple con los compromisos académicos.
-12470,Chuy Lara-Arenas,10°,2.3,2,2,Presenta dificultades en el aprendizaje y requiere apoyo adicional. Se observa baja motivación o aislamiento social. Requiere acompañamiento en disciplina y respeto por las normas.
-13649,Marc Rovira Ojeda,6°,3.9,5,1,A veces cumple con los compromisos académicos. Se observa baja motivación o aislamiento social.
-12647,Isa Vidal Carlos,10°,4.8,7,9,Demuestra liderazgo académico y actitud positiva. Mantiene una actitud emocionalmente estable y empática.
-12822,Ximena Falcón Iñiguez,11°,3.4,8,9,Muestra interés irregular en las actividades. Mantiene una actitud emocionalmente estable y empática.
-12549,Paulino Rubio Abellán,6°,4.3,8,7,Demuestra liderazgo académico y actitud positiva.
-12136,Ángela Figueras,6°,3.8,2,4,Se esfuerza pero necesita reforzar algunos temas. Se observa baja motivación o aislamiento social. Requiere acompañamiento en disciplina y respeto por las normas.
-12433,Irene Becerra Murillo,6°,3.2,2,10,Muestra interés irregular en las actividades. Mantiene una actitud emocionalmente estable y empática. Requiere acompañamiento en disciplina y respeto por las normas.
-13162,Estefanía Narcisa Casanovas Mas,6°,4.5,9,9,Demuestra liderazgo académico y actitud positiva. Mantiene una actitud emocionalmente estable y empática. Es un referente positivo en convivencia y disciplina.
-13471,Esmeralda Real,8°,1.7,6,3,Presenta dificultades en el aprendizaje y requiere apoyo adicional. Se observa baja motivación o aislamiento social.
-12645,Graciana Marqués Castejón,6°,2.6,5,5,Presenta dificultades en el aprendizaje y requiere apoyo adicional.
-12436,Humberto Pinilla,7°,1.6,0,1,Presenta dificultades en el aprendizaje y requiere apoyo adicional. Se observa baja motivación o aislamiento social. Requiere acompañamiento en disciplina y respeto por las normas.
-13343,Mario Mascaró Ramis,10°,4.1,10,7,Participa activamente y mantiene un buen desempeño. Es un referente positivo en convivencia y disciplina.
-13023,Serafina de Mateu,9°,2.8,6,4,No entrega tareas a tiempo y se distrae con frecuencia. Se observa baja motivación o aislamiento social.
-12811,Cruz Ildefonso Montserrat Sola,8°,3.3,0,9,A veces cumple con los compromisos académicos. Mantiene una actitud emocionalmente estable y empática. Requiere acompañamiento en disciplina y respeto por las normas.
-13317,Isaura García Vicente,6°,4.8,7,8,Participa activamente y mantiene un buen desempeño. Mantiene una actitud emocionalmente estable y empática.
-12940,Rosalina Doménech Blazquez,6°,1.6,0,1,Presenta dificultades en el aprendizaje y requiere apoyo adicional. Se observa baja motivación o aislamiento social. Requiere acompañamiento en disciplina y respeto por las normas.
-12293,José Ángel Natanael Naranjo Bueno,9°,2.8,2,0,Presenta dificultades en el aprendizaje y requiere apoyo adicional. Se observa baja motivación o aislamiento social. Requiere acompañamiento en disciplina y respeto por las normas.
-12543,Nicodemo del Gomila,8°,3.8,7,1,A veces cumple con los compromisos académicos. Se observa baja motivación o aislamiento social.
-12506,Candelario Amat,7°,4.7,7,9,Estudiante responsable y comprometido con el aprendizaje. Mantiene una actitud emocionalmente estable y empática.
-13526,Donato Talavera Beltran,10°,1.9,6,1,Presenta dificultades en el aprendizaje y requiere apoyo adicional. Se observa baja motivación o aislamiento social.
-13104,Herminia Ferreras Plana,6°,1.7,5,6,"Bajo rendimiento general, falta de concentración."
-12539,Gloria Hervás Coloma,8°,2.8,5,3,No entrega tareas a tiempo y se distrae con frecuencia. Se observa baja motivación o aislamiento social.
-13530,Victoriano Campillo Rodríguez,10°,3.2,7,1,A veces cumple con los compromisos académicos. Se observa baja motivación o aislamiento social.
-13198,Chus del Ayllón,6°,4.6,8,6,Estudiante responsable y comprometido con el aprendizaje.
-12878,Diana de Sastre,7°,4.8,6,8,Participa activamente y mantiene un buen desempeño. Mantiene una actitud emocionalmente estable y empática.
-13196,Salvador Sobrino Molins,6°,4.1,10,9,Demuestra liderazgo académico y actitud positiva. Mantiene una actitud emocionalmente estable y empática. Es un referente positivo en convivencia y disciplina.
-12818,María José Vargas Roldan,7°,5.0,9,6,Demuestra liderazgo académico y actitud positiva. Es un referente positivo en convivencia y disciplina.
-12742,Itziar de Taboada,8°,2.6,0,6,Presenta dificultades en el aprendizaje y requiere apoyo adicional. Requiere acompañamiento en disciplina y respeto por las normas.
-12284,Dora Huertas Lluch,8°,2.6,5,3,"Bajo rendimiento general, falta de concentración. Se observa baja motivación o aislamiento social."
-13044,Julieta Haro,6°,2.8,2,0,No entrega tareas a tiempo y se distrae con frecuencia. Se observa baja motivación o aislamiento social. Requiere acompañamiento en disciplina y respeto por las normas.
-13011,Isidro Berenguer-Macias,10°,4.3,10,9,Demuestra liderazgo académico y actitud positiva. Mantiene una actitud emocionalmente estable y empática. Es un referente positivo en convivencia y disciplina.
-12187,Elías del Montenegro,6°,1.8,6,3,"Bajo rendimiento general, falta de concentración. Se observa baja motivación o aislamiento social."
-13548,Anita de Contreras,9°,4.0,3,4,Participa activamente y mantiene un buen desempeño. Se observa baja motivación o aislamiento social. Requiere acompañamiento en disciplina y respeto por las normas.
-12097,Gregorio de Gargallo,7°,4.7,6,6,Participa activamente y mantiene un buen desempeño.
-12225,Hipólito Ramón Muro,10°,4.2,10,6,Participa activamente y mantiene un buen desempeño. Es un referente positivo en convivencia y disciplina.
-12314,Josefa del Barrios,9°,1.4,0,5,Presenta dificultades en el aprendizaje y requiere apoyo adicional. Requiere acompañamiento en disciplina y respeto por las normas.
-13286,Sigfrido Rivera,9°,4.7,8,9,Demuestra liderazgo académico y actitud positiva. Mantiene una actitud emocionalmente estable y empática.
-12328,Yolanda Aller Pintor,9°,2.0,3,1,"Bajo rendimiento general, falta de concentración. Se observa baja motivación o aislamiento social. Requiere acompañamiento en disciplina y respeto por las normas."
-13623,Adelaida Ortiz Martín,10°,4.0,2,1,Demuestra liderazgo académico y actitud positiva. Se observa baja motivación o aislamiento social. Requiere acompañamiento en disciplina y respeto por las normas.
-13394,Tamara Rius Giménez,9°,2.4,6,0,No entrega tareas a tiempo y se distrae con frecuencia. Se observa baja motivación o aislamiento social.
-13222,Constanza Llamas Ruano,11°,2.2,5,3,Presenta dificultades en el aprendizaje y requiere apoyo adicional. Se observa baja motivación o aislamiento social.
-12131,Albina Porcel Navarrete,9°,3.2,5,5,A veces cumple con los compromisos académicos.
+ID Estudiante	Nombre	Grado	Desempeño Académico	Disciplina	Aspecto Emocional	Observaciones Docente
+1641	Isa Quintero Becerra	7A	1.67	6	8	Presenta dificultades académicas, requiere refuerzo.
+2048	Coral de Planas	8A	2.29	10	3	Presenta dificultades académicas, requiere refuerzo.
+2151	Azucena Palomar Mínguez	6B	2.58	6	1	Presenta dificultades académicas, requiere refuerzo.
+1261	Herberto Amaro Botella Pavón	7B	1.42	5	2	Presenta dificultades académicas, requiere refuerzo.
+2071	Tamara del Bernat	7B	3.62	0	6	Necesita mejorar su comportamiento en clase.
+2711	Pía Manjón Franco	6A	1.88	10	4	Presenta dificultades académicas, requiere refuerzo.
+2435	Leonel Ariza Plana	8A	1.27	3	6	Presenta dificultades académicas, requiere refuerzo.
+3531	Eutimio Porta	6B	3	1	8	Necesita mejorar su comportamiento en clase.
+2528	Maxi Palomar Torrecilla	8B	2.01	1	9	Presenta dificultades académicas, requiere refuerzo.
+2560	Venceslás Río Falcó	6B	3.79	10	2	Se observa ansiedad o desmotivación, necesita orientación.
+3174	Alejandro Ferrando Amaya	6A	3.54	5	10	Muestra compromiso, buen comportamiento y actitud positiva.
+3038	Dafne Torrijos-Porcel	7B	2.34	9	9	Presenta dificultades académicas, requiere refuerzo.
+3606	Ruy Mena Valero	8B	3.04	3	8	Necesita mejorar su comportamiento en clase.
+1708	Silvia del Alegre	7A	4.95	3	0	Necesita mejorar su comportamiento en clase.
+1525	Fortunato Barba Nebot	6A	1.95	6	3	Presenta dificultades académicas, requiere refuerzo.
+2027	Hermenegildo Carrasco Galán	6B	1.55	7	4	Presenta dificultades académicas, requiere refuerzo.
+2175	Jesusa Company	8B	2.5	10	0	Presenta dificultades académicas, requiere refuerzo.
+1749	Cruz Bello-Arco	7A	3.39	7	5	Se observa ansiedad o desmotivación, necesita orientación.
+2899	Jose Ignacio Aliaga Soto	8B	2.27	0	8	Presenta dificultades académicas, requiere refuerzo.
+2556	Amalia Daniela Castrillo Alcaraz	7A	4.25	0	3	Necesita mejorar su comportamiento en clase.
+2217	Maximiano Ayllón Meléndez	8B	1.97	8	0	Presenta dificultades académicas, requiere refuerzo.
+2762	Javier Donaire Bartolomé	8A	3.79	3	9	Necesita mejorar su comportamiento en clase.
+1224	Baudelio Valencia Giménez	6A	2.29	7	10	Presenta dificultades académicas, requiere refuerzo.
+1413	Samu Franco Rojas	8B	4.48	1	3	Necesita mejorar su comportamiento en clase.
+1575	Ruperta Quesada Morata	6B	4.97	3	2	Necesita mejorar su comportamiento en clase.
+3278	Octavio Cervantes Montoya	6A	3.37	3	3	Necesita mejorar su comportamiento en clase.
+1872	Roberto Arroyo	8B	2.7	7	4	Presenta dificultades académicas, requiere refuerzo.
+2219	Carmela Narváez-Barroso	7A	1.79	6	2	Presenta dificultades académicas, requiere refuerzo.
+2024	Emigdio Cid Ribes	7A	2.14	7	10	Presenta dificultades académicas, requiere refuerzo.
+2672	Pablo Pelayo Cózar	7B	4.45	7	1	Se observa ansiedad o desmotivación, necesita orientación.
+2931	Daniela Armas Cañellas	8A	2.51	7	7	Presenta dificultades académicas, requiere refuerzo.
+3174	Ruy Peñalver Cruz	6A	3.44	6	2	Se observa ansiedad o desmotivación, necesita orientación.
+2429	Valerio Torrens Berrocal	8A	4.05	6	1	Se observa ansiedad o desmotivación, necesita orientación.
+2253	Abraham Escobar Borrell	7B	3.15	8	2	Se observa ansiedad o desmotivación, necesita orientación.
+2736	Victoria Luz-Rico	8A	2.85	7	4	Presenta dificultades académicas, requiere refuerzo.
+1759	Nydia Castañeda Fábregas	8B	3.42	1	5	Necesita mejorar su comportamiento en clase.
+1217	Miguel Lillo Zabala	6A	2.88	2	3	Presenta dificultades académicas, requiere refuerzo.
+2857	Guiomar Haro Díaz	7B	4.45	5	7	Muestra compromiso, buen comportamiento y actitud positiva.
+3205	Nydia Alma Escolano Valero	7A	4.76	5	6	Muestra compromiso, buen comportamiento y actitud positiva.
+2874	Anunciación Maxi Mascaró Oliveras	6A	3.56	9	1	Se observa ansiedad o desmotivación, necesita orientación.
+3516	Adela Gutiérrez Fernandez	6B	4.97	1	6	Necesita mejorar su comportamiento en clase.
+2627	Juan Manuel Bustos Paredes	8A	1.78	6	4	Presenta dificultades académicas, requiere refuerzo.
+1436	Lilia de Simó	8B	3.84	10	5	Se observa ansiedad o desmotivación, necesita orientación.
+2192	Emiliano Baena	7B	2.54	6	3	Presenta dificultades académicas, requiere refuerzo.
+1315	Basilio Company	8B	1.14	5	10	Presenta dificultades académicas, requiere refuerzo.
+3065	Leonor Egea Cuesta	8B	3.66	2	4	Necesita mejorar su comportamiento en clase.
+3568	Amando Pascual López	8B	1.59	3	9	Presenta dificultades académicas, requiere refuerzo.
+1578	Isaac Iglesias	8B	4.37	0	1	Necesita mejorar su comportamiento en clase.
+3600	María Manuela Santana Aroca	6A	3.85	6	6	Muestra compromiso, buen comportamiento y actitud positiva.
+1879	Raimundo Badía Echeverría	7B	3.07	3	6	Necesita mejorar su comportamiento en clase.
+3383	Rubén Andres Toro	8B	2.01	4	8	Presenta dificultades académicas, requiere refuerzo.
+2885	Azahar Belda	8B	4.55	9	4	Se observa ansiedad o desmotivación, necesita orientación.
+3545	Poncio del Moreno	7A	4.48	1	10	Necesita mejorar su comportamiento en clase.
+2830	Chita Moreno Grau	8B	4.26	4	3	Necesita mejorar su comportamiento en clase.
+1206	Fermín Goñi Cabañas	6A	2.23	2	7	Presenta dificultades académicas, requiere refuerzo.
+2907	Rafa del Folch	8B	1.28	6	8	Presenta dificultades académicas, requiere refuerzo.
+1922	Violeta Giménez Beltrán	7A	2.15	6	2	Presenta dificultades académicas, requiere refuerzo.
+3192	Marisol Tormo Ballester	6B	1.75	2	3	Presenta dificultades académicas, requiere refuerzo.
+3522	Blanca Garzón Sanz	6B	3.01	1	7	Necesita mejorar su comportamiento en clase.
+1985	Guillermo Perea Cerezo	7A	1.74	0	2	Presenta dificultades académicas, requiere refuerzo.
