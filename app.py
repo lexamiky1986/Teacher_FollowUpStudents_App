@@ -1,69 +1,177 @@
-# =========================================================
-# ✏️ Agregar o actualizar estudiante
-# =========================================================
-elif menu == "✏️ Actualizar o Agregar Estudiante":
-    st.header("✏️ Actualizar o Agregar Estudiante")
+import streamlit as st
+import pandas as pd
+import numpy as np
+from datetime import datetime
+import os
+from ml_model import entrenar_modelo
+from nlp_utils import analizar_observacion, generar_texto_informe_por_grado
+from fpdf import FPDF
 
-    # Dropdown de grados
-    grados_existentes = sorted(df["Grado"].dropna().unique())
-    grado = st.selectbox("Selecciona el grado", grados_existentes)
+# ------------------------------------------------------------
+# CONFIGURACIÓN GENERAL
+# ------------------------------------------------------------
+st.set_page_config(page_title="📘 Seguimiento Docente", layout="wide")
+DATA_PATH = "data/students_data.csv"
 
-    # Filtrar estudiantes de ese grado
-    estudiantes_grado = df[df["Grado"] == grado]["Nombre"].tolist()
-    estudiantes_opciones = estudiantes_grado + ["Nuevo estudiante"]
-    nombre = st.selectbox("Selecciona un estudiante o Nuevo estudiante", estudiantes_opciones)
+# ------------------------------------------------------------
+# FUNCIONES DE APOYO
+# ------------------------------------------------------------
+@st.cache_data
+def cargar_datos():
+    if not os.path.exists(DATA_PATH):
+        st.warning("⚠️ No se encontró el archivo de datos. Se creará uno nuevo vacío.")
+        df = pd.DataFrame(columns=[
+            "ID Estudiante", "Nombre", "Grado",
+            "Desempeño Académico", "Disciplina",
+            "Aspecto Emocional", "Observaciones Docente"
+        ])
+        df.to_csv(DATA_PATH, index=False, encoding="utf-8-sig")
+    return pd.read_csv(DATA_PATH, encoding="utf-8-sig")
 
-    # Si es nuevo estudiante, pedir nombre
-    if nombre == "Nuevo estudiante":
-        nombre = st.text_input("Escribe el nombre del estudiante:")
+def guardar_datos(df):
+    df.to_csv(DATA_PATH, index=False, encoding="utf-8-sig")
 
-    if nombre:
-        # Verificar si ya existe
-        existe = ((df["Grado"] == grado) & (df["Nombre"].str.lower() == nombre.lower())).any()
+# Generar PDF de informe por grado
+def generar_pdf(grado, texto):
+    pdf = FPDF()
+    pdf.add_page()
+    pdf.set_font("Arial", "B", 16)
+    pdf.cell(200, 10, f"Informe del grado {grado}", ln=True, align="C")
 
-        if existe:
-            st.subheader(f"📄 Editar datos de {nombre} ({grado})")
-            estudiante = df[(df["Grado"] == grado) & (df["Nombre"].str.lower() == nombre.lower())].iloc[0]
-        else:
-            st.subheader(f"🆕 Registrar nuevo estudiante ({grado})")
-            estudiante = {
-                "Desempeño Académico": 3.0,
-                "Disciplina": 5,
-                "Aspecto Emocional": 5,
-                "Observaciones Docente": ""
+    pdf.set_font("Arial", "", 12)
+    for linea in texto.split("\n"):
+        pdf.multi_cell(0, 8, linea)
+    nombre_archivo = f"Informe_Grado_{grado}.pdf"
+    ruta = os.path.join("data", nombre_archivo)
+    pdf.output(ruta)
+    return ruta
+
+# ------------------------------------------------------------
+# CARGA DE DATOS
+# ------------------------------------------------------------
+df = cargar_datos()
+
+# ------------------------------------------------------------
+# MENÚ PRINCIPAL
+# ------------------------------------------------------------
+menu = st.sidebar.selectbox(
+    "Menú principal",
+    ["📋 Ver Datos", "➕ Agregar Observación", "🤖 Análisis e IA", "📄 Generar Informe por Grado"]
+)
+
+# ------------------------------------------------------------
+# VISTA 1: VER DATOS
+# ------------------------------------------------------------
+if menu == "📋 Ver Datos":
+    st.title("📋 Seguimiento general de estudiantes")
+    st.dataframe(df, use_container_width=True)
+
+    col1, col2, col3 = st.columns(3)
+    col1.metric("Promedio Académico", round(df["Desempeño Académico"].mean(), 2))
+    col2.metric("Promedio Disciplina", round(df["Disciplina"].mean(), 2))
+    col3.metric("Promedio Emocional", round(df["Aspecto Emocional"].mean(), 2))
+
+# ------------------------------------------------------------
+# VISTA 2: AGREGAR OBSERVACIÓN
+# ------------------------------------------------------------
+elif menu == "➕ Agregar Observación":
+    st.title("➕ Agregar nueva observación del docente")
+
+    with st.form("nuevo_registro"):
+        nombre = st.text_input("Nombre del estudiante")
+        grado = st.text_input("Grado o curso")
+        academico = st.slider("Desempeño académico (1.0 a 5.0)", 1.0, 5.0, 3.0)
+        disciplina = st.slider("Disciplina (0 a 10)", 0, 10, 5)
+        emocional = st.slider("Aspecto emocional / psicosocial (0 a 10)", 0, 10, 5)
+        observacion = st.text_area("Observaciones del docente")
+
+        enviar = st.form_submit_button("Guardar registro")
+
+        if enviar:
+            nuevo = {
+                "ID Estudiante": np.random.randint(1200, 3666),
+                "Nombre": nombre,
+                "Grado": grado,
+                "Desempeño Académico": academico,
+                "Disciplina": disciplina,
+                "Aspecto Emocional": emocional,
+                "Observaciones Docente": observacion
             }
+            df = pd.concat([df, pd.DataFrame([nuevo])], ignore_index=True)
+            guardar_datos(df)
+            st.success(f"✅ Registro guardado para {nombre} (Grado {grado})")
 
-        # Formulario de edición o creación
-        with st.form("form_estudiante"):
-            nuevo_academico = st.slider("Desempeño Académico (1.0 - 5.0)", 1.0, 5.0, float(estudiante["Desempeño Académico"]))
-            nueva_disciplina = st.slider("Disciplina (0 - 10)", 0, 10, int(estudiante["Disciplina"]))
-            nuevo_emocional = st.slider("Aspecto Emocional (0 - 10)", 0, 10, int(estudiante["Aspecto Emocional"]))
-            nuevas_observaciones = st.text_area("Observaciones Docente", value=estudiante["Observaciones Docente"])
+# ------------------------------------------------------------
+# VISTA 3: ANÁLISIS E IA
+# ------------------------------------------------------------
+elif menu == "🤖 Análisis e IA":
+    st.title("🤖 Análisis con Inteligencia Artificial")
 
-            submit = st.form_submit_button("💾 Guardar Cambios")
+    if df.empty:
+        st.warning("No hay datos disponibles.")
+        st.stop()
 
-            if submit:
-                if existe:
-                    idx = df[(df["Grado"] == grado) & (df["Nombre"].str.lower() == nombre.lower())].index[0]
-                    df.loc[idx, "Desempeño Académico"] = nuevo_academico
-                    df.loc[idx, "Disciplina"] = nueva_disciplina
-                    df.loc[idx, "Aspecto Emocional"] = nuevo_emocional
-                    df.loc[idx, "Observaciones Docente"] = nuevas_observaciones
-                    df.loc[idx, "Última Actualización"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-                    st.success(f"✅ Datos de {nombre} actualizados correctamente.")
-                else:
-                    nuevo_id = df["ID"].max() + 1 if "ID" in df.columns and not df.empty else 1200
-                    nuevo = pd.DataFrame([{
-                        "ID": int(nuevo_id),
-                        "Nombre": nombre,
-                        "Grado": grado,
-                        "Desempeño Académico": nuevo_academico,
-                        "Disciplina": nueva_disciplina,
-                        "Aspecto Emocional": nuevo_emocional,
-                        "Observaciones Docente": nuevas_observaciones,
-                        "Última Actualización": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-                    }])
-                    df = pd.concat([df, nuevo], ignore_index=True)
-                    st.success(f"🆕 Nuevo estudiante {nombre} agregado correctamente.")
+    # Entrenar modelo de agrupamiento (ML)
+    df_analizado, modelo = entrenar_modelo(df)
 
-                guardar_datos(df)
+    # Aplicar análisis NLP por observación
+    estrategias_docente = []
+    estrategias_psico = []
+    tonos = []
+
+    for _, fila in df_analizado.iterrows():
+        tono, estrategia_doc, estrategia_psico = analizar_observacion(fila["Observaciones Docente"])
+        tonos.append(tono)
+        estrategias_docente.append(estrategia_doc)
+        estrategias_psico.append(estrategia_psico)
+
+    df_analizado["Tono Observación"] = tonos
+    df_analizado["Estrategia Docente"] = estrategias_docente
+    df_analizado["Estrategia Psico-Familiar"] = estrategias_psico
+
+    st.subheader("Resultados del análisis combinado")
+    st.dataframe(df_analizado, use_container_width=True)
+
+    st.markdown("""
+    ### Interpretación general:
+    - **Clúster 0**: Alto desempeño, bajo riesgo.  
+    - **Clúster 1**: Rendimiento medio, seguimiento moderado.  
+    - **Clúster 2**: Riesgo académico o emocional, requiere apoyo.  
+    """)
+
+    # Métricas agrupadas por grado
+    st.subheader("Promedios por grado")
+    st.bar_chart(df_analizado.groupby("Grado")[["Desempeño Académico", "Disciplina", "Aspecto Emocional"]].mean())
+
+    # Listado por clúster
+    st.subheader("Listados de estudiantes por grupo")
+    for cluster in sorted(df_analizado["Grupo"].unique()):
+        st.markdown(f"### 🧩 Grupo {cluster}")
+        st.dataframe(df_analizado[df_analizado["Grupo"] == cluster][
+            ["Nombre", "Grado", "Desempeño Académico", "Disciplina", "Aspecto Emocional", "Tono Observación"]
+        ])
+
+# ------------------------------------------------------------
+# VISTA 4: GENERAR INFORME PDF POR GRADO
+# ------------------------------------------------------------
+elif menu == "📄 Generar Informe por Grado":
+    st.title("📄 Generar informe PDF por grado")
+
+    grados = df["Grado"].dropna().unique().tolist()
+    if not grados:
+        st.warning("No hay grados registrados.")
+        st.stop()
+
+    grado_sel = st.selectbox("Selecciona el grado", grados)
+
+    if st.button("Generar PDF"):
+        texto = generar_texto_informe_por_grado(df, grado_sel)
+        ruta_pdf = generar_pdf(grado_sel, texto)
+        st.success(f"✅ Informe generado: {ruta_pdf}")
+        with open(ruta_pdf, "rb") as f:
+            st.download_button(
+                label="⬇️ Descargar PDF",
+                data=f,
+                file_name=os.path.basename(ruta_pdf),
+                mime="application/pdf"
+            )
