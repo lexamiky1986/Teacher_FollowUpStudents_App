@@ -1,195 +1,114 @@
-import streamlit as st
+from textblob import TextBlob
+from fpdf import FPDF
+import random
 import pandas as pd
-from datetime import datetime
-from ml_model import entrenar_modelo
-from nlp_utils import analizar_observacion, generar_pdf_por_grado
 
-st.set_page_config(page_title="📘 Seguimiento Docente Integral", layout="wide")
+def analizar_observacion(texto):
+    if not isinstance(texto, str) or texto.strip() == "":
+        return "Neutro", "Reforzar seguimiento académico general", "Comunicación básica con familia"
 
-# =========================================================
-# 📂 Cargar y guardar datos
-# =========================================================
-@st.cache_data
-def cargar_datos():
-    try:
-        df = pd.read_csv("data/students_data.csv")
-    except FileNotFoundError:
-        df = pd.DataFrame(columns=[
-            "ID", "Nombre", "Grado", "Desempeño Académico",
-            "Disciplina", "Aspecto Emocional", "Observaciones Docente",
-            "Última Actualización"
-        ])
-    # Asegurar columnas necesarias
-    for col in ["ID", "Nombre", "Grado", "Desempeño Académico", "Disciplina", "Aspecto Emocional", "Observaciones Docente", "Última Actualización"]:
-        if col not in df.columns:
-            df[col] = ""
-    return df
+    blob = TextBlob(texto)
+    polaridad = blob.sentiment.polarity
 
-def guardar_datos(df):
-    df.to_csv("data/students_data.csv", index=False)
-
-df = cargar_datos()
-
-# =========================================================
-# 🧭 Menú lateral
-# =========================================================
-menu = st.sidebar.selectbox(
-    "Menú Principal",
-    [
-        "📊 Ver Datos",
-        "✏️ Actualizar o Agregar Estudiante",
-        "🤖 Análisis e IA",
-        "📄 Generar Informe PDF por Grado"
-    ]
-)
-
-# =========================================================
-# 📊 Ver datos
-# =========================================================
-if menu == "📊 Ver Datos":
-    st.header("📚 Seguimiento Académico, Disciplinario y Emocional")
-
-    if df.empty:
-        st.warning("⚠️ No hay datos disponibles todavía.")
+    if polaridad > 0.2:
+        tono = "Positivo"
+    elif polaridad < -0.2:
+        tono = "Negativo"
     else:
-        grados = ["Todos"] + sorted(df["Grado"].dropna().unique().tolist())
-        grado_seleccionado = st.selectbox("Filtrar por grado:", grados)
+        tono = "Neutro"
 
-        if grado_seleccionado != "Todos":
-            df_filtrado = df[df["Grado"] == grado_seleccionado].copy()
+    texto_lower = texto.lower()
+    estrategias_docente = []
+    estrategias_psico = []
+
+    if any(p in texto_lower for p in ["desmotivado", "triste", "ansioso", "nervioso", "estresado"]):
+        estrategias_docente.append("Apoyar desde tutoría y reforzar autoestima.")
+        estrategias_psico.append("Reunión con orientador y familia para acompañamiento emocional.")
+    if any(p in texto_lower for p in ["agresivo", "indisciplinado", "conflicto", "pelea"]):
+        estrategias_docente.append("Aplicar pautas de manejo conductual y diálogo empático.")
+        estrategias_psico.append("Orientar a los padres sobre límites y rutinas de apoyo.")
+    if any(p in texto_lower for p in ["participativo", "motivado", "responsable", "líder"]):
+        estrategias_docente.append("Reconocer su liderazgo y promover tutoría entre pares.")
+        estrategias_psico.append("Mantener comunicación positiva con familia sobre avances.")
+    if any(p in texto_lower for p in ["rendimiento", "bajo", "nota", "dificultad", "deficiente"]):
+        estrategias_docente.append("Implementar plan de refuerzo académico personalizado.")
+        estrategias_psico.append("Contactar familia para establecer hábitos de estudio.")
+
+    if not estrategias_docente:
+        if tono == "Positivo":
+            estrategias_docente.append("Potenciar fortalezas y promover nuevos retos académicos.")
+            estrategias_psico.append("Retroalimentar positivamente a la familia.")
+        elif tono == "Negativo":
+            estrategias_docente.append("Realizar seguimiento individual y plan de mejora.")
+            estrategias_psico.append("Citar familia para apoyo emocional y académico.")
         else:
-            df_filtrado = df.copy()
+            estrategias_docente.append("Observar evolución y mantener comunicación regular.")
+            estrategias_psico.append("Orientar familia sobre apoyo cotidiano.")
 
-        # Mostrar métricas
-        col1, col2, col3 = st.columns(3)
-        col1.metric("📘 Promedio Académico", round(df_filtrado["Desempeño Académico"].astype(float).mean(), 2))
-        col2.metric("🧭 Promedio Disciplina", round(df_filtrado["Disciplina"].astype(float).mean(), 2))
-        col3.metric("💚 Promedio Emocional", round(df_filtrado["Aspecto Emocional"].astype(float).mean(), 2))
+    return tono, random.choice(estrategias_docente), random.choice(estrategias_psico)
 
-        # Crear columna de promedio total
-        df_filtrado["Promedio Total"] = (
-            df_filtrado["Desempeño Académico"].astype(float) * 2 +
-            df_filtrado["Disciplina"].astype(float) / 2 +
-            df_filtrado["Aspecto Emocional"].astype(float) / 2
-        ) / 3
 
-        # Colorear filas según promedio
-        def color_fila(valor):
-            if valor < 3.0:
-                return "background-color: #ffb3b3;"
-            elif valor < 4.0:
-                return "background-color: #fff0b3;"
-            else:
-                return "background-color: #b3ffb3;"
+def generar_texto_informe_por_grado(df, grado):
+    df_grado = df[df["Grado"] == grado]
+    if df_grado.empty:
+        return f"No hay información disponible para el grado {grado}.", df_grado
 
-        styled_df = df_filtrado.style.apply(
-            lambda row: [color_fila(row["Promedio Total"])] * len(row),
-            axis=1
-        )
+    promedio_academico = round(df_grado["Desempeño Académico"].mean(), 2)
+    promedio_disciplina = round(df_grado["Disciplina"].mean(), 2)
+    promedio_emocional = round(df_grado["Aspecto Emocional"].mean(), 2)
 
-        st.dataframe(styled_df, use_container_width=True)
+    tonos, estrategias_doc, estrategias_psico = [], [], []
+    for _, fila in df_grado.iterrows():
+        tono, e_doc, e_psico = analizar_observacion(str(fila["Observaciones Docente"]))
+        tonos.append(tono)
+        estrategias_doc.append(e_doc)
+        estrategias_psico.append(e_psico)
 
-# =========================================================
-# ✏️ Agregar o actualizar estudiante
-# =========================================================
-elif menu == "✏️ Actualizar o Agregar Estudiante":
-    st.header("✏️ Actualizar o Agregar Estudiante")
+    df_grado = df_grado.copy()
+    df_grado["Tono"] = tonos
+    df_grado["Estrategia Docente"] = estrategias_doc
+    df_grado["Estrategia Psico-Familiar"] = estrategias_psico
 
-    grados_existentes = sorted(df["Grado"].dropna().unique())
-    grado = st.selectbox("Selecciona el grado", grados_existentes + ["Nuevo grado"])
-    if grado == "Nuevo grado":
-        grado = st.text_input("Escribe el nuevo grado:")
+    tono_predominante = df_grado["Tono"].mode()[0]
+    estrategia_doc_pred = df_grado["Estrategia Docente"].mode()[0]
+    estrategia_psico_pred = df_grado["Estrategia Psico-Familiar"].mode()[0]
 
-    estudiantes_grado = df[df["Grado"] == grado]["Nombre"].tolist() if grado else []
-    nombre = st.selectbox("Selecciona un estudiante o Nuevo estudiante", estudiantes_grado + ["Nuevo estudiante"])
-    if nombre == "Nuevo estudiante":
-        nombre = st.text_input("Escribe el nombre del estudiante:")
+    texto = (
+        f"📘 Informe general del grado {grado}\n\n"
+        f"Promedio académico: {promedio_academico}\n"
+        f"Promedio disciplinario: {promedio_disciplina}\n"
+        f"Promedio emocional: {promedio_emocional}\n\n"
+        f"Tono emocional predominante: {tono_predominante}\n"
+        f"Estrategia docente general: {estrategia_doc_pred}\n"
+        f"Estrategia psico-familiar general: {estrategia_psico_pred}\n"
+    )
 
-    if nombre:
-        existe = ((df["Grado"] == grado) & (df["Nombre"].str.lower() == nombre.lower())).any()
-        if existe:
-            st.subheader(f"📄 Editar datos de {nombre} ({grado})")
-            estudiante = df[(df["Grado"] == grado) & (df["Nombre"].str.lower() == nombre.lower())].iloc[0]
-        else:
-            st.subheader(f"🆕 Registrar nuevo estudiante ({grado})")
-            estudiante = {"Desempeño Académico": 3.0, "Disciplina": 5, "Aspecto Emocional": 5, "Observaciones Docente": ""}
+    return texto, df_grado
 
-        with st.form("form_estudiante"):
-            nuevo_academico = st.slider("Desempeño Académico (1.0 - 5.0)", 1.0, 5.0, float(estudiante["Desempeño Académico"]))
-            nueva_disciplina = st.slider("Disciplina (0 - 10)", 0, 10, int(estudiante["Disciplina"]))
-            nuevo_emocional = st.slider("Aspecto Emocional (0 - 10)", 0, 10, int(estudiante["Aspecto Emocional"]))
-            nuevas_observaciones = st.text_area("Observaciones Docente", value=estudiante["Observaciones Docente"])
-            submit = st.form_submit_button("💾 Guardar Cambios")
 
-            if submit:
-                if existe:
-                    idx = df[(df["Grado"] == grado) & (df["Nombre"].str.lower() == nombre.lower())].index[0]
-                    df.loc[idx, "Desempeño Académico"] = nuevo_academico
-                    df.loc[idx, "Disciplina"] = nueva_disciplina
-                    df.loc[idx, "Aspecto Emocional"] = nuevo_emocional
-                    df.loc[idx, "Observaciones Docente"] = nuevas_observaciones
-                    df.loc[idx, "Última Actualización"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-                    st.success(f"✅ Datos de {nombre} actualizados correctamente.")
-                else:
-                    nuevo_id = df["ID"].max() + 1 if "ID" in df.columns and not df.empty else 1200
-                    nuevo = pd.DataFrame([{
-                        "ID": int(nuevo_id),
-                        "Nombre": nombre,
-                        "Grado": grado,
-                        "Desempeño Académico": nuevo_academico,
-                        "Disciplina": nueva_disciplina,
-                        "Aspecto Emocional": nuevo_emocional,
-                        "Observaciones Docente": nuevas_observaciones,
-                        "Última Actualización": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-                    }])
-                    df = pd.concat([df, nuevo], ignore_index=True)
-                    st.success(f"🆕 Nuevo estudiante {nombre} agregado correctamente.")
+def generar_pdf_por_grado(df, grado, ruta_salida="informe_grado.pdf"):
+    resumen, df_grado = generar_texto_informe_por_grado(df, grado)
+    pdf = FPDF()
+    pdf.add_page()
+    pdf.set_font("Arial", "B", 14)
+    pdf.cell(0, 10, f"Informe del Grado {grado}", ln=True, align="C")
 
-                guardar_datos(df)
+    pdf.set_font("Arial", "", 12)
+    pdf.multi_cell(0, 8, resumen)
+    pdf.ln(5)
 
-# =========================================================
-# 🤖 Análisis con ML + NLP
-# =========================================================
-elif menu == "🤖 Análisis e IA":
-    st.header("🤖 Análisis con Machine Learning y NLP")
+    pdf.set_font("Arial", "B", 11)
+    pdf.cell(40, 8, "Nombre", 1, 0, "C")
+    pdf.cell(25, 8, "Tono", 1, 0, "C")
+    pdf.cell(60, 8, "Estrategia Docente", 1, 0, "C")
+    pdf.cell(60, 8, "Estrategia Psico-Familiar", 1, 1, "C")
 
-    if not df.empty:
-        df_ml, modelo = entrenar_modelo(df)
-        st.dataframe(df_ml[["ID","Nombre","Grado","Desempeño Académico","Disciplina","Aspecto Emocional","Grupo"]])
+    pdf.set_font("Arial", "", 10)
+    for _, fila in df_grado.iterrows():
+        pdf.cell(40, 8, fila["Nombre"][:20], 1, 0, "L")
+        pdf.cell(25, 8, fila["Tono"], 1, 0, "C")
+        pdf.cell(60, 8, fila["Estrategia Docente"][:40], 1, 0, "L")
+        pdf.cell(60, 8, fila["Estrategia Psico-Familiar"][:40], 1, 1, "L")
 
-        st.markdown("""
-        **Interpretación de los grupos (clusters):**
-        - `0`: Estudiantes de alto desempeño integral.  
-        - `1`: Estudiantes en nivel medio o en transición.  
-        - `2`: Estudiantes con riesgo académico, emocional o disciplinario.  
-        """)
-
-        st.subheader("🧠 Estrategias generadas con NLP:")
-
-        nombre_seleccionado = st.selectbox("Selecciona un estudiante para analizar observaciones", df["Nombre"].unique())
-        obs_series = df.loc[df["Nombre"] == nombre_seleccionado, "Observaciones Docente"]
-        obs = obs_series.values[0] if not obs_series.empty else ""
-        tono, estrategia_doc, estrategia_psico = analizar_observacion(str(obs))
-
-        st.info(f"**Observación:** {obs}")
-        st.write(f"**Tono detectado:** {tono}")
-        st.write(f"**Estrategia Docente:** {estrategia_doc}")
-        st.write(f"**Estrategia Psico-Familiar:** {estrategia_psico}")
-    else:
-        st.warning("No hay datos para analizar. Agrega estudiantes primero.")
-
-# =========================================================
-# 📄 Generar PDF por grado
-# =========================================================
-elif menu == "📄 Generar Informe PDF por Grado":
-    st.header("📄 Generar Informe Consolidado por Grado")
-
-    if not df.empty:
-        grados_disponibles = sorted(df["Grado"].dropna().unique())
-        if not grados_disponibles:
-            st.warning("⚠️ No hay grados disponibles para generar informe.")
-        else:
-            grado = st.selectbox("Selecciona el grado", grados_disponibles)
-            if st.button("🖨️ Generar PDF"):
-                ruta = f"informe_{grado}.pdf"
-                ruta_pdf = generar_pdf_por_grado(df, grado, ruta
+    pdf.output(ruta_salida)
+    return ruta_salida
