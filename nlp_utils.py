@@ -4,23 +4,21 @@ import random
 import pandas as pd
 
 # =========================================================
-# 🔹 1. Análisis individual de observaciones docentes
+# 🔹 Analizar observación individual
 # =========================================================
 def analizar_observacion(texto):
     """
-    Analiza una observación de texto (docente) y devuelve:
-      - Tono: Positivo, Negativo o Neutro
-      - Estrategia Docente sugerida
-      - Estrategia Psico-Familiar sugerida
+    Analiza texto docente y devuelve:
+    - Tono: Positivo, Negativo o Neutro
+    - Estrategia docente sugerida
+    - Estrategia psico-familiar sugerida
     """
-
     if not isinstance(texto, str) or texto.strip() == "":
         return "Neutro", "Reforzar seguimiento académico general", "Comunicación básica con familia"
 
     blob = TextBlob(texto)
     polaridad = blob.sentiment.polarity
 
-    # Clasificación de tono
     if polaridad > 0.2:
         tono = "Positivo"
     elif polaridad < -0.2:
@@ -33,7 +31,6 @@ def analizar_observacion(texto):
     estrategias_docente = []
     estrategias_psico = []
 
-    # 🔹 Análisis por palabras clave
     if any(p in texto_lower for p in ["desmotivado", "triste", "ansioso", "nervioso", "estresado"]):
         estrategias_docente.append("Apoyar desde tutoría y reforzar autoestima.")
         estrategias_psico.append("Reunión con orientador y familia para acompañamiento emocional.")
@@ -50,7 +47,6 @@ def analizar_observacion(texto):
         estrategias_docente.append("Implementar plan de refuerzo académico personalizado.")
         estrategias_psico.append("Contactar familia para establecer hábitos de estudio.")
 
-    # 🔹 Si no hay palabras clave, decidir según tono
     if not estrategias_docente:
         if tono == "Positivo":
             estrategias_docente.append("Potenciar fortalezas y promover nuevos retos académicos.")
@@ -64,19 +60,13 @@ def analizar_observacion(texto):
 
     return tono, random.choice(estrategias_docente), random.choice(estrategias_psico)
 
-
 # =========================================================
-# 🔹 2. Generar texto de análisis resumido por grado
+# 🔹 Generar texto de informe por grado
 # =========================================================
 def generar_texto_informe_por_grado(df, grado):
-    """
-    Devuelve texto de resumen con métricas, tono promedio
-    y estrategias predominantes para un grado específico.
-    """
     df_grado = df[df["Grado"] == grado]
-
     if df_grado.empty:
-        return f"No hay información disponible para el grado {grado}."
+        return f"No hay información disponible para el grado {grado}.", df_grado
 
     promedio_academico = round(df_grado["Desempeño Académico"].mean(), 2)
     promedio_disciplina = round(df_grado["Disciplina"].mean(), 2)
@@ -84,7 +74,7 @@ def generar_texto_informe_por_grado(df, grado):
 
     tonos, estrategias_doc, estrategias_psico = [], [], []
     for _, fila in df_grado.iterrows():
-        tono, e_doc, e_psico = analizar_observacion(str(fila["Observaciones Docente"]))
+        tono, e_doc, e_psico = analizar_observacion(str(fila.get("Observaciones Docente", "")))
         tonos.append(tono)
         estrategias_doc.append(e_doc)
         estrategias_psico.append(e_psico)
@@ -110,15 +100,10 @@ def generar_texto_informe_por_grado(df, grado):
 
     return texto, df_grado
 
-
 # =========================================================
-# 🔹 3. Generar PDF visual por grado
+# 🔹 Generar PDF por grado
 # =========================================================
 def generar_pdf_por_grado(df, grado, ruta_salida="informe_grado.pdf"):
-    """
-    Crea un informe PDF para un grado con resumen general
-    y tabla de estrategias individuales.
-    """
     resumen, df_grado = generar_texto_informe_por_grado(df, grado)
 
     pdf = FPDF()
@@ -130,7 +115,6 @@ def generar_pdf_por_grado(df, grado, ruta_salida="informe_grado.pdf"):
     pdf.multi_cell(0, 8, resumen)
     pdf.ln(5)
 
-    # 🔹 Encabezado de tabla
     pdf.set_font("Arial", "B", 11)
     pdf.cell(40, 8, "Nombre", 1, 0, "C")
     pdf.cell(25, 8, "Tono", 1, 0, "C")
@@ -138,8 +122,6 @@ def generar_pdf_por_grado(df, grado, ruta_salida="informe_grado.pdf"):
     pdf.cell(60, 8, "Estrategia Psico-Familiar", 1, 1, "C")
 
     pdf.set_font("Arial", "", 10)
-
-    # 🔹 Filas
     for _, fila in df_grado.iterrows():
         pdf.cell(40, 8, fila["Nombre"][:20], 1, 0, "L")
         pdf.cell(25, 8, fila["Tono"], 1, 0, "C")
