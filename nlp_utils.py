@@ -2,24 +2,13 @@ from textblob import TextBlob
 import random
 import pandas as pd
 
-# ---------------------------------------------------------------------
-# Análisis de observaciones docentes
-# ---------------------------------------------------------------------
 def analizar_observacion(texto):
-    """
-    Analiza la observación del docente con NLP (TextBlob) y devuelve:
-      - Tono (positivo, negativo, neutro)
-      - Estrategia docente sugerida
-      - Estrategia psico-familiar
-    """
-
     if not isinstance(texto, str) or texto.strip() == "":
         return "Neutro", "Reforzar seguimiento académico general", "Comunicación básica con familia"
 
     blob = TextBlob(texto)
     polaridad = blob.sentiment.polarity
 
-    # Determinar tono
     if polaridad > 0.2:
         tono = "Positivo"
     elif polaridad < -0.2:
@@ -27,7 +16,6 @@ def analizar_observacion(texto):
     else:
         tono = "Neutro"
 
-    # Palabras clave para personalizar estrategia
     texto_lower = texto.lower()
     estrategias_docente = []
     estrategias_psico = []
@@ -48,7 +36,6 @@ def analizar_observacion(texto):
         estrategias_docente.append("Implementar plan de refuerzo académico personalizado")
         estrategias_psico.append("Contactar familia para establecer hábitos de estudio")
 
-    # Si no se detectó ninguna palabra clave, usar enfoque por tono
     if not estrategias_docente:
         if tono == "Positivo":
             estrategias_docente.append("Potenciar fortalezas y promover nuevos retos académicos")
@@ -60,21 +47,12 @@ def analizar_observacion(texto):
             estrategias_docente.append("Observar evolución y mantener comunicación regular")
             estrategias_psico.append("Orientar familia sobre apoyo cotidiano")
 
-    # Seleccionar estrategia aleatoria si hay varias candidatas
     estrategia_doc = random.choice(estrategias_docente)
     estrategia_psico = random.choice(estrategias_psico)
 
     return tono, estrategia_doc, estrategia_psico
 
-
-# ---------------------------------------------------------------------
-# Generar texto resumen para informe PDF por grado
-# ---------------------------------------------------------------------
 def generar_texto_informe_por_grado(df, grado):
-    """
-    Genera texto analítico resumido de todos los estudiantes de un grado,
-    combinando métricas académicas y estrategias NLP.
-    """
     df_grado = df[df["Grado"] == grado]
 
     if df_grado.empty:
@@ -94,7 +72,6 @@ def generar_texto_informe_por_grado(df, grado):
         "Recomendaciones generales:"
     ]
 
-    # Análisis agregado NLP
     tonos = []
     estrategias_doc = []
     estrategias_psico = []
@@ -109,7 +86,6 @@ def generar_texto_informe_por_grado(df, grado):
     df_grado["Estrategia Docente"] = estrategias_doc
     df_grado["Estrategia Psico-Familiar"] = estrategias_psico
 
-    # Síntesis de estrategias predominantes
     estrategia_doc_pred = df_grado["Estrategia Docente"].mode()[0]
     estrategia_psico_pred = df_grado["Estrategia Psico-Familiar"].mode()[0]
     tono_dominante = df_grado["Tono"].mode()[0]
