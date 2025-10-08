@@ -2,13 +2,18 @@ import streamlit as st
 import pandas as pd
 import os
 from datetime import datetime
+
+# Importar módulos personalizados
 from modules.ml_model import entrenar_modelo
 from modules.nlp_utils import analizar_observacion, generar_pdf_por_grado
 
+# Configuración de la aplicación
 st.set_page_config(page_title="📘 Seguimiento Docente Integral", layout="wide")
 
+# Ruta del archivo de datos
 DATA_PATH = "data/students_data.csv"
 
+# Función para cargar datos
 @st.cache_data(ttl=300)
 def cargar_datos():
     if os.path.exists(DATA_PATH):
@@ -20,12 +25,15 @@ def cargar_datos():
             "Última Actualización"
         ])
 
+# Función para guardar datos
 def guardar_datos(df):
     os.makedirs("data", exist_ok=True)
     df.to_csv(DATA_PATH, index=False, encoding="utf-8-sig")
 
+# Cargar datos al iniciar
 df = cargar_datos()
 
+# Menú lateral
 menu = st.sidebar.selectbox("Menú Principal", [
     "📊 Ver Datos",
     "✏️ Agregar / Actualizar Estudiante",
@@ -33,10 +41,12 @@ menu = st.sidebar.selectbox("Menú Principal", [
     "📄 Generar Informe PDF por Grado"
 ])
 
+# 📊 Ver Datos
 if menu == "📊 Ver Datos":
     st.header("📚 Seguimiento Académico, Disciplinario y Emocional")
     st.dataframe(df, use_container_width=True)
 
+# ✏️ Agregar / Actualizar Estudiante
 elif menu == "✏️ Agregar / Actualizar Estudiante":
     st.header("✏️ Registro de Estudiante")
     with st.form("form_estudiante"):
@@ -68,6 +78,7 @@ elif menu == "✏️ Agregar / Actualizar Estudiante":
         guardar_datos(df)
         st.success("✅ Estudiante guardado correctamente.")
 
+# 🤖 Análisis e IA
 elif menu == "🤖 Análisis e IA":
     st.header("🤖 Análisis de Observaciones Docentes")
     texto = st.text_area("Ingrese una observación para analizar")
@@ -84,6 +95,7 @@ elif menu == "🤖 Análisis e IA":
         st.text("📊 Reporte de clasificación:")
         st.text(reporte)
 
+# 📄 Generar Informe PDF por Grado
 elif menu == "📄 Generar Informe PDF por Grado":
     st.header("📄 Informe PDF por Grado")
     grado_seleccionado = st.selectbox("Seleccione el grado", sorted(df["Grado"].unique()))
