@@ -1,701 +1,101 @@
 ID,Nombre,Grado,Desempeño Académico,Disciplina,Aspecto Emocional,Observaciones Docente,Última Actualización
-1200,Concepción Amorós-Nogueira,6B,1.38,6,3,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1201,Irma Teresita Roma Barberá,6B,2.84,2,2,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1202,Leonel Pons Madrigal,8B,2.12,0,3,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1203,Jordana del Villena,7B,2.23,9,9,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1204,Ceferino Piquer-Solsona,6A,2.78,3,1,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1205,Blas de Lozano,6B,2.63,7,7,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1206,Aristides Iborra-Marqués,7B,3.96,6,9,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1207,Marianela Prat Arias,8B,1.09,4,3,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1208,Eli Fidela Leiva Iglesia,7A,2.97,8,5,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1209,Adora Beatriz Melero Montesinos,7B,1.08,8,9,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1210,Teo Escamilla-Salcedo,7A,4.35,9,3,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1211,Adriana Sabater Agullo,8B,1.58,1,9,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1212,Alicia Palmer Tenorio,6B,3.73,2,6,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1213,Concha del Barragán,7A,1.87,5,6,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1214,Ani Lloret-Miralles,7B,2.0,4,3,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1215,Isidro Escolano Jordá,8B,3.4,7,0,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1216,Efraín Uría-Castejón,8B,4.74,3,10,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1217,Maxi de Collado,8A,1.26,0,6,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1218,Morena Amarilis Guerrero Carbó,7B,2.38,6,0,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1219,Cirino Velázquez Sacristán,6A,2.75,7,6,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1220,Ester Arnaiz-Goñi,7A,2.75,5,3,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1221,Pepe Jove Jiménez,6B,2.47,4,7,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1222,Norberto Osuna Arribas,8A,1.67,9,10,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1223,Custodia Felicia Canales Berenguer,7B,3.4,3,0,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1224,Isidora Carbajo,8B,2.46,3,1,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1225,Angélica Gálvez,8B,4.66,1,9,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1226,Fermín Pera,8A,3.21,4,1,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1227,Andrea Roldan Luna,7A,4.73,7,2,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1228,Albano Morera Palomino,6B,1.57,6,4,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1229,Griselda Perera Sosa,8A,1.92,4,2,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1230,María Albino Cueto Pedrosa,6A,1.27,1,9,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1231,Espiridión Conesa Amigó,8A,3.29,2,4,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1232,Marco Galán Millán,6B,2.88,6,2,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1233,Otilia Verdejo,8B,1.07,3,9,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1234,Olivia Núñez-Garrido,6B,1.31,1,4,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1235,Selena Antúnez Conesa,7A,3.14,7,8,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1236,Rafaela Bermudez Berenguer,6B,3.89,2,8,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1237,Lorenzo del Carrión,6B,1.98,0,5,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1238,Rosalva Aznar,8A,4.07,8,0,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1239,Jovita Mónica Zamorano Viña,6B,3.02,0,6,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1240,Ester Leon Ferrero,6B,1.67,7,2,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1241,Emilia Hervás-Mulet,8A,1.97,9,5,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1242,Salomón del Gual,7B,4.13,7,3,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1243,Estela Carlos Hernando,6B,1.7,1,3,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1244,Paula Redondo Paredes,7B,3.56,0,1,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1245,Gabriel Vega Benito,8A,1.54,4,7,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1246,Montserrat Tomé Grau,8A,4.2,10,6,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1247,Roberta Riquelme Gras,7B,3.17,6,8,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1248,Sarita Casares-Hierro,8A,4.85,8,5,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1249,Nereida Cervera Juliá,8A,3.31,6,4,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1250,Francisco Faustino Carranza Bertrán,7B,4.75,2,8,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1251,Ignacia Vazquez Colomer,6A,1.5,0,3,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1252,Leocadia Figuerola-Escolano,6A,3.4,5,4,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1253,Adoración Diaz Carrillo,7B,3.42,6,6,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1254,Dorotea Soriano Cabrero,7B,2.2,0,5,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1255,Trinidad Aragón Rosado,7B,1.79,0,3,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1256,Onofre Diaz Beltran,8A,4.1,2,7,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1257,José Ángel Ávila Pons,7A,4.16,2,10,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1258,Felicidad Castell Quesada,6B,2.59,2,0,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1259,Dalila del Carrera,7B,4.61,4,7,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1260,Viviana Navarro Campos,6B,2.87,7,5,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1261,Angelino Pacheco Sanchez,6B,2.85,6,0,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1262,Mayte Sandoval Ruano,7A,4.79,10,1,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1263,Reyes Jorge Cañizares Español,7B,2.5,5,7,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1264,África Vergara-Blanes,8A,4.55,6,1,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1265,Victorino Aguilera Pelayo,7B,2.18,8,8,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1266,Fortunata Montes Ródenas,7A,1.16,7,1,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1267,José Manuel Losa Caballero,6B,2.33,4,8,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1268,Eustaquio del Nogueira,8B,1.04,1,2,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1269,Lope Villaverde Zapata,6A,3.84,4,0,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1270,Liliana Roldan-Machado,7A,3.04,10,8,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1271,Fátima Montalbán Escalona,8A,1.1,6,5,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1272,Alfonso Galvez Ros,7A,2.84,9,5,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1273,Eligia Miralles,6A,2.47,8,9,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1274,Fulgencio López Daza,8A,4.53,7,6,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1275,Ernesto Llanos Torrecilla,8A,1.14,8,9,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1276,Consuelo Dominguez Maldonado,7A,1.27,2,6,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1277,Marcio Camino-Guardiola,7A,3.64,7,10,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1278,Calisto Báez-Gabaldón,8A,1.58,3,1,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1279,Sofía de Amorós,6A,2.54,6,3,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1280,Yaiza Almudena Ferrero Agudo,6B,1.18,0,2,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1281,Serafina Amigó Peiró,6B,2.67,3,6,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1282,Epifanio Roldan,6B,2.71,9,4,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1283,Loreto Cases Santiago,6A,1.0,1,2,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1284,Ángel Bartolomé Carretero Sales,6B,2.06,7,1,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1285,Leire Jódar Bolaños,7B,2.87,2,10,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1286,Emilio Carnero Otero,7A,1.46,10,7,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1287,Ramón Girón Benavente,7A,3.47,5,7,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1288,Camila Vendrell Naranjo,8B,3.31,8,5,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1289,Javi Vilalta-Benavent,8B,3.66,8,2,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1290,Violeta Arenas Rosselló,8B,3.73,9,8,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1291,Patricio Vázquez Moll,6B,2.12,9,3,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1292,Sosimo Aranda,7A,4.26,6,7,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1293,Donato Cerro Peñalver,7B,2.31,8,4,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1294,Nicodemo de Lara,8A,4.89,6,0,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1295,Bárbara Tormo Exposito,6B,2.2,4,1,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1296,Elisabet Catalá Fiol,7B,3.22,3,3,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1297,Juan Gargallo Acero,8A,4.62,1,8,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1298,Anabel Trujillo Gallardo,8A,2.45,6,6,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1299,Alejo Ripoll Jódar,6B,2.32,1,3,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1300,Fortunata Melania Guitart Oller,7A,3.49,10,1,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1301,Luisa Escolano Marín,7B,4.7,0,6,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1302,Urbano del Toro,7B,4.26,2,6,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1303,Rosalinda Poza Palau,6A,4.91,5,5,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1304,Juliana del Bárcena,7B,2.23,7,7,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1305,Basilio del Rivas,6B,3.35,6,6,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1306,Eufemia Huertas Rodríguez,7A,2.15,9,2,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1307,Chus Sobrino Montaña,7B,1.64,5,9,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1308,Fulgencio Puig Castellanos,6A,4.41,1,1,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1309,Sol Torrijos Requena,8A,4.18,0,2,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1310,Alberto del Leal,6B,2.71,1,10,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1311,Concepción Rebollo,6B,4.97,0,7,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1312,Lisandro Moraleda Jurado,8B,1.13,4,5,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1313,Guiomar Posada Salamanca,8A,3.74,5,10,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1314,Gloria Juliá Ballester,7A,1.35,2,4,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1315,Jose Carlos Gilabert-Nicolás,6A,1.4,9,1,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1316,Fabio Salvà Redondo,7B,3.46,3,2,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1317,Luciano de Fábregas,7A,4.3,7,1,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1318,Marino Murcia Castelló,6A,3.37,9,8,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1319,Luz Ainara Almazán Pinilla,6A,4.33,4,2,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1320,Rosario Mínguez Osorio,8B,2.85,4,2,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1321,Ana Belén de Villena,7B,4.1,8,1,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1322,Gerardo Fiol,7B,3.43,4,0,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1323,Simón Priego Grande,8B,4.41,10,2,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1324,Salvador Cecilio Pereira Muñoz,8A,2.89,7,5,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1325,Concepción Ibarra Alcalde,7B,2.23,10,6,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1326,Telmo Almagro Zurita,8B,4.23,3,4,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1327,Josué Puga Toro,6B,2.31,3,7,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1328,Cayetano Luna Mata,6A,3.81,0,1,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1329,Darío Huertas Aragón,6A,3.35,1,2,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1330,Reinaldo Casals-Pina,8B,4.99,2,2,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1331,Benigna Lerma Blazquez,8A,1.29,5,5,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1332,Angelino Vargas Ribes,7B,1.96,7,6,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1333,Adrián Cordero Bustos,8B,1.49,10,10,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1334,Rosa María Posada-Ferrera,8B,3.21,9,4,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1335,Tecla Esperanza Morales Rodríguez,6A,1.84,7,10,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1336,Perlita Alvarado,7A,2.46,6,3,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1337,Emigdio Jenaro Franco Cabo,7B,1.26,0,4,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1338,Nacio Soto-Peñas,8B,1.75,7,7,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1339,Iker Arturo Girón Ramos,6B,4.87,5,7,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1340,Eligia del Luís,7A,4.26,6,10,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1341,Lilia de Piñeiro,6A,4.83,9,2,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1342,Jose Ramón Prada Peralta,7B,4.48,2,4,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1343,Oriana de Santamaria,6A,1.37,5,2,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1344,Luis de Puerta,8A,4.54,3,8,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1345,Jacinto del Tapia,8B,2.98,4,3,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1346,Asunción Mercader-Márquez,8B,1.72,0,0,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1347,Sandalio Blanes Bustos,7A,2.44,5,9,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1348,Carla de Trillo,8A,2.35,1,7,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1349,Diana Blanes-Cid,8B,1.81,2,5,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1350,María Manuela Sáenz Zabala,8A,3.63,8,4,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1351,Pía Guerrero-Barral,8A,2.56,8,9,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1352,Dolores Requena Merino,8B,4.71,3,6,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1353,Silvia Contreras Arce,8A,4.2,7,9,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1354,Noemí Ramos Adán,7A,2.16,7,0,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1355,Onofre Gallart-Torres,8B,2.33,6,9,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1356,Leticia del Gutiérrez,7B,4.86,1,7,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1357,Joaquina Tomas Vilar,6B,4.72,9,9,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1358,Tecla de Calzada,7B,4.69,9,3,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1359,Odalis Berenguer Peña,6B,2.06,10,0,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1360,Reyes Alcalde Cáceres,7B,3.67,9,4,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1361,Pilar Carrión,6A,2.06,8,3,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1362,Conrado Río Carballo,7B,1.89,7,3,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1363,Venceslás Rodrigo Valbuena,7A,1.01,0,1,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1364,Matías Zamorano Torrens,6A,3.14,8,6,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1365,Reinaldo Ripoll Pujol,8A,3.01,10,4,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1366,Eusebio Carpio Rozas,6B,3.65,7,9,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1367,Plácido Íñigo Linares Yáñez,6A,3.14,8,4,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1368,María Luisa Peral Daza,8B,4.42,6,8,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1369,Espiridión Zabala Fuente,6B,2.31,8,10,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1370,Oriana Florencia Vives Iglesias,7A,1.06,6,1,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1371,Joaquina Galvez Murillo,6A,3.59,7,0,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1372,Celestino Zamora Sáez,8B,1.52,4,2,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1373,Federico Rico Escobar,6B,2.17,4,6,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1374,Joel Bautista Adán,7A,4.62,3,2,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1375,Pascual Ciríaco Flores Burgos,8A,1.39,4,4,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1376,Jesusa del Busquets,6A,3.77,10,1,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1377,Mateo Solís Crespi,6B,4.93,1,0,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1378,Gabino Gonzalez Ochoa,6A,1.26,4,2,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1379,Clemente Llobet Luís,8A,4.06,5,1,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1380,Marisol Maza Pedrero,8A,4.06,8,7,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1381,Raquel Graciana Iñiguez Francisco,7A,1.49,10,9,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1382,Manu Corominas Calderon,7A,4.14,5,1,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1383,Enrique Escalona,7A,1.71,3,8,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1384,Lope Calatayud-Castañeda,6A,3.9,9,1,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1385,Maristela Piñol,8A,1.65,5,2,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1386,Maricela Lluch Sáenz,7B,4.26,8,3,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1387,Cesar Acedo,6A,4.96,10,5,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1388,Cándido de Collado,6A,2.36,6,6,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1389,Celestino Talavera Abad,6B,4.23,6,3,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1390,Angélica Azorin Cerro,8A,1.76,10,7,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1391,Roxana Sabater,8B,3.99,1,3,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1392,Natalia Suarez Morillo,7B,4.74,7,8,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1393,Josué Ricardo Carpio Hernando,6B,2.55,10,5,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1394,Georgina del Pol,6B,4.6,0,7,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1395,Felicidad Mesa Yuste,8B,1.01,5,0,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1396,Luisa Bermudez Gargallo,7B,4.74,10,5,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1397,Maximiliano Lobato Clavero,7B,4.0,0,5,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1398,Manuelita Sala Trillo,8A,1.34,1,9,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1399,Octavio Carreño-Rozas,6B,3.25,1,9,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1400,Carmina Amaya Pavón,8B,2.89,8,8,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1401,Regina Oliva Rodrigo,6A,4.05,1,9,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1402,Mario Feijoo,6B,4.14,10,5,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1403,Florentina Escamilla Alarcón,6A,2.25,6,4,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1404,Ismael Paniagua,8B,4.43,0,4,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1405,Charo Adán,7B,4.86,2,4,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1406,Esmeralda Moya-Burgos,7B,5.0,4,5,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1407,Zoraida Izaguirre Valverde,6A,4.93,8,5,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1408,Marcio Llano Aragonés,6A,2.99,4,6,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1409,Miguel Ángel Tejero-Puig,6B,1.1,4,5,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1410,Pablo Isern Lledó,8A,3.85,2,8,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1411,Lucho Anglada Sotelo,6A,3.4,1,5,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1412,Melania Jenny Trujillo Durán,7A,1.38,4,5,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1413,Pilar Calleja Arenas,6B,4.55,2,9,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1414,Albina Coronado Elorza,6A,3.33,1,3,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1415,Ariel Rivas Carreras,6A,2.11,8,8,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1416,Iván Barrios Miralles,8B,4.25,8,9,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1417,Timoteo Lobato Ferrera,7A,3.18,8,10,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1418,Paz Adriana Méndez Moliner,7A,1.4,6,0,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1419,Víctor Pazos Villalonga,8B,4.68,6,1,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1420,Nazaret Quintana Rico,6A,2.33,0,2,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1421,Anacleto Ferrando Valls,6A,1.38,9,0,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1422,Pánfilo Lasa Blanes,7A,4.57,0,7,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1423,Iván Arribas Llorens,6B,2.62,1,4,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1424,Chita Noemí Vega Recio,6A,3.36,8,3,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1425,Maximino Acero Merino,8A,2.34,2,10,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1426,Lisandro Orozco-Carranza,6A,3.8,1,10,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1427,Josefa Boix Sierra,8B,2.88,2,2,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1428,Bautista Botella Esparza,6B,4.83,10,8,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1429,Ciro Moll Almagro,8A,4.96,0,10,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1430,Rufino Alarcón Gelabert,7B,4.5,9,3,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1431,Jimena Bertrán Huerta,6B,3.19,0,6,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1432,Silvio Noé Feijoo Cazorla,8A,3.45,6,3,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1433,Amando Goyo Madrid Enríquez,8A,2.17,2,6,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1434,Buenaventura Moles-Riba,7A,2.65,9,4,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1435,Silvestre de Llamas,7A,2.0,1,6,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1436,Chus Marquez,6A,3.59,7,0,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1437,Paco Sabater-Lamas,8B,2.62,3,4,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1438,Jose Ignacio Padilla Parra,8A,1.51,2,10,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1439,Reina Zabala Sancho,6B,1.48,10,3,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1440,Alejandro Pol Cortés,8B,3.84,3,3,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1441,Mariana de Roura,7B,1.19,1,10,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1442,Mireia Malo Galan,6A,1.53,3,4,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1443,Odalis Vara Leiva,8B,3.3,10,3,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1444,José María Galvez Jordá,6A,1.44,0,6,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1445,Joaquín Julián,6B,2.37,7,2,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1446,Íñigo Carlos Villanueva,7A,3.9,1,5,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1447,Jordán Chaves Solera,8A,4.91,6,10,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1448,Etelvina Perales-Pina,6B,3.72,7,10,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1449,Xiomara Aragón-Mora,7B,4.43,2,3,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1450,Maxi Palmer Aguiló,6B,2.41,10,10,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1451,Humberto Talavera Nadal,6A,2.96,4,6,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1452,Miriam Cabrera Exposito,6B,2.01,6,7,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1453,Encarnación Cánovas Solera,8A,1.25,0,7,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1454,Cayetana de Saavedra,7A,2.16,6,1,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1455,Jessica Martina Royo Pujol,7B,1.56,4,2,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1456,Silvia Hervia Iriarte,6A,4.08,7,8,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1457,María Carmen Nebot Tolosa,8B,3.35,5,4,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1458,Emperatriz Arjona Guillén,7B,1.9,3,4,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1459,Asunción Robledo,7B,4.85,4,2,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1460,Remedios Leon Pérez,6B,1.88,2,0,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1461,Albina Céspedes-Vigil,8A,3.58,6,3,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1462,Íñigo Mas Zamora,7A,3.04,2,1,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1463,Loreto Chaparro,8B,3.88,8,4,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1464,Natanael Mínguez Balaguer,7A,1.4,10,8,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1465,Fabián Cid Oliva,8A,3.99,0,1,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1466,Gertrudis Dalmau Serna,7A,4.83,1,3,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1467,Narciso Coloma Fonseca,8A,2.01,3,10,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1468,Eutropio Meléndez Bernat,6B,4.42,9,8,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1469,Desiderio Frutos Rueda,6B,3.51,8,0,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1470,Porfirio Hierro Correa,7B,4.83,5,8,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1471,Sonia del Adadia,6B,3.27,0,7,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1472,Candela Ocaña Cabo,7A,1.75,4,6,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1473,Malena Prado Garcia,6B,3.78,4,9,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1474,Nayara Peñalver Silva,8A,3.52,10,9,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1475,Rico de Ponce,7B,3.26,1,6,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1476,Federico Cañellas Pulido,6A,3.5,3,5,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1477,Viviana Luna Rodriguez,6B,4.43,5,7,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1478,Georgina Luna Bellido Oliver,7B,3.13,7,3,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1479,Nayara Amores Girona,6A,4.83,0,1,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1480,Carmina Rebeca Gutierrez Peinado,7B,3.26,2,3,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1481,Evita Vallejo Abellán,7B,4.47,3,7,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1482,María Belén Pili Puig Berenguer,8B,3.14,1,1,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1483,Bruno del Expósito,8B,4.96,8,7,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1484,Curro Matas Rozas,7A,1.54,3,3,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1485,Fortunato Plana Escolano,8A,1.39,4,0,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1486,Bárbara López Merino,8A,2.64,4,10,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1487,Nereida Terrón Arana,7A,4.56,3,1,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1488,Humberto Escobar-Cárdenas,6A,4.69,9,1,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1489,Nilda Villar Camino,8B,4.22,9,8,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1490,Rosenda Blanch Olivares,7B,3.52,3,0,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1491,Nacio Quiroga Alberola,8B,3.76,8,2,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1492,Feliciano Castells Vendrell,6B,4.03,0,7,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1493,Noelia Sanz Alberdi,6A,4.18,5,1,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1494,Montserrat Querol Rocamora,7A,3.01,3,9,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1495,Evaristo Rodríguez Jordán,7B,1.0,5,5,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1496,Marciano Sanjuan Vallés,8B,3.23,2,0,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1497,Reyna Sáenz Naranjo,6A,1.39,10,9,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1498,Filomena de Escamilla,6B,3.67,3,2,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1499,Luisina Pla Bernal,6B,1.94,0,2,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1500,Abraham Navas Jordá,7A,4.31,3,2,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1501,José Ángel Sanz,6B,2.84,10,7,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1502,Amanda Sobrino Lucena,8B,3.47,0,1,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1503,Benjamín Tovar Seguí,8B,4.65,3,5,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1504,Amarilis Peiró Iniesta,7B,4.03,4,10,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1505,Evangelina Marti Alvarez,7B,1.62,1,2,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1506,Débora de Marcos,6A,2.51,2,5,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1507,Hilda Alemany Salom,6A,3.13,10,6,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1508,Emma Aranda Cantón,6A,1.34,2,3,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1509,Patricia Arce Prieto,6B,1.61,1,6,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1510,Chucho de Busquets,8B,3.8,2,4,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1511,Prudencio Coca Uriarte,8A,3.08,8,10,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1512,Virginia Llobet Ojeda,7A,4.8,9,9,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1513,Noemí Hervás Zabaleta,8A,4.55,2,9,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1514,Jesusa Armas-Benito,7B,3.64,3,7,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1515,Florencia Arenas Collado,7A,1.69,7,4,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1516,Paloma Merche Cadenas Piña,6B,2.04,3,0,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1517,Paola Bermúdez,7B,2.62,6,8,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1518,Ángeles Matas Rocamora,8B,4.71,9,1,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1519,Ainoa Espejo Jimenez,8B,1.51,0,3,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1520,Silvio Rosselló Carnero,7B,3.8,1,8,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1521,Lucho Julián,8B,2.58,10,9,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1522,Mario José Ángel Hervás Avilés,8A,3.95,2,0,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1523,Maribel Suárez Garrido,6B,1.72,3,2,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1524,Eli Estevez Lloret,8A,4.63,8,9,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1525,Nazaret Arroyo,8A,4.54,3,8,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1526,Gloria Yéssica Escudero López,6A,1.33,8,8,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1527,Abilio Ramírez-Galan,6B,2.04,5,8,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1528,Rosendo Ribas Castilla,7B,4.31,0,6,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1529,Eliseo Sevillano-Monreal,6B,4.4,3,2,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1530,Dan Gomila Alfaro,6B,3.8,1,8,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1531,Consuela Bartolomé Maestre,8B,3.5,1,6,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1532,Sarita Jimena Rivero Mulet,7B,3.54,1,5,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1533,Gema del Alberola,6A,1.66,4,5,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1534,Evita Montenegro Olivares,8B,1.13,0,0,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1535,Bárbara Sevilla Valenzuela,7A,3.76,0,1,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1536,Juan Pablo Domínguez,6A,1.66,10,9,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1537,Dominga Quintana Antúnez,6A,1.33,3,7,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1538,Ani Torrecilla-Ojeda,7A,2.76,8,10,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1539,Cristóbal Ávila Peiró,6A,1.23,10,9,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1540,Esteban Remigio Miró Sanmiguel,7B,3.88,5,5,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1541,Ale Costa Diaz,7A,3.69,8,10,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1542,Feliciana Marcia Rosado Ribes,6A,4.01,4,2,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1543,Remigio Luz Tudela,8B,3.18,2,9,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1544,Godofredo de Pinedo,7B,3.31,7,4,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1545,Susanita Beatriz Caballero Priego,6B,3.09,1,2,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1546,Curro Cano,8A,4.3,4,8,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1547,Ema Escalona-Cuenca,7B,4.15,5,6,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1548,Malena Real Ortiz,6A,1.16,6,7,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1549,Hugo Lorenzo,8B,1.18,0,0,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1550,Regina Parejo Camacho,7A,2.05,3,6,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1551,Lidia Poza Gomis,8B,3.55,1,5,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1552,Leocadia Simó Macías,7B,3.06,8,2,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1553,Camila Elías Páez,7B,2.51,1,3,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1554,Abel Juan Pablo Múñiz Simó,6B,1.6,4,8,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1555,Néstor Cabello Pla,6A,4.96,5,10,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1556,Montserrat Ripoll-Ripoll,7B,2.46,2,9,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1557,Cecilia Andres Gomez,8B,3.92,8,0,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1558,Marcos Vaquero Bernat,6B,2.88,6,3,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1559,Marianela Patricia Rebollo Alsina,7B,2.64,9,8,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1560,María Jesús Iborra Delgado,8B,3.47,0,9,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1561,Maura Suarez-Bou,6B,4.81,8,2,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1562,Ainoa Porras Vidal,6A,1.26,4,0,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1563,Teodoro Cuéllar,6A,4.46,4,8,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1564,Flor Heras Díez,7A,4.56,8,0,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1565,Olivia Folch Mora,6B,3.5,4,10,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1566,Eugenio Barón Anguita,6B,3.19,7,7,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1567,Luis Serra,8A,3.06,6,3,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1568,Delfina Salcedo Herranz,6B,3.59,6,4,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1569,Jerónimo Vall Cantero,8B,1.62,1,2,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1570,Socorro Eusebia Cuervo Hierro,8B,2.6,10,4,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1571,Palmira Becerra Aguilar,8B,1.68,9,10,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1572,Néstor Ramos Vizcaíno,7A,3.67,4,6,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1573,Tere Pol Bejarano,8B,1.63,3,6,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1574,Dorita Carrillo Alvarez,6B,1.52,8,6,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1575,Juliana Barreda Marco,7B,1.42,4,1,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1576,Saturnina Ariño Parra,8B,4.49,6,4,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1577,Otilia Vidal Sacristán,7A,2.56,5,5,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1578,Rocío Casanova Calleja,7B,4.47,0,2,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1579,Teo Jáuregui Cantón,7A,4.15,10,5,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1580,Gervasio Rey Nicolás,6B,3.17,2,4,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1581,Yago Herrero Tolosa,6A,4.84,0,10,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1582,Eligio Caballero,7A,2.88,4,6,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1583,Miguela Benavent Sedano,8A,4.45,8,9,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1584,Primitiva Hierro Juan,8B,3.02,0,3,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1585,Emiliana Sales Muro,8B,1.44,3,8,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1586,Odalis Jordá Llopis,7A,3.0,2,4,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1587,Alicia Pía Chaves Colomer,8A,3.9,2,7,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1588,Elvira Amo,8B,4.33,0,10,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1589,Valerio del Pareja,8B,2.36,4,10,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1590,Fabio Pepito Cuadrado Mayol,6B,1.23,4,3,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1591,Oriana Sabater Mariño,6B,4.67,3,5,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1592,Ramiro Castells Collado,7A,4.31,4,9,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1593,Emelina Tecla Plana Jimenez,8B,4.53,1,6,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1594,Alberto de Mateo,6A,1.89,2,1,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1595,Luís Albero Jover,8A,1.38,9,7,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1596,Palmira Verdugo Villanueva,6A,2.87,1,8,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1597,Judith Domínguez Núñez,8A,3.43,3,3,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1598,Lázaro Vallejo Miralles,7B,1.37,10,3,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1599,Florentina Pineda,7A,1.87,6,10,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1600,Miriam Dominguez Zapata,6A,5.0,0,6,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1601,Carmelita Tomé Pino,8A,3.89,1,9,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1602,Nicanor Barón Noriega,6A,2.99,5,6,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1603,Fabián de Gomez,8A,2.85,8,6,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1604,Emilio Carreras Figueras,6A,3.88,8,0,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1605,Leticia Segovia Albero,6A,4.65,3,0,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1606,Viviana Gracia,6A,3.34,5,6,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1607,Germán Aparicio,6A,3.2,9,8,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1608,Maura Cabeza Mur,7B,1.98,6,5,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1609,Anabel Linares,8B,3.55,7,4,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1610,Luna de Barba,8B,2.13,9,1,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1611,Margarita Yáñez Huguet,8B,4.63,0,9,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1612,Eduardo de Hierro,7A,1.85,5,9,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1613,Onofre del Elías,7A,1.54,0,1,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1614,Marco Larrañaga Lobato,8B,3.41,1,8,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1615,Ramiro Falcón Bartolomé,8A,4.09,4,1,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1616,Juan Carlos Mateo Barrera,8A,2.17,3,6,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1617,Danilo Hervás,6B,2.91,0,9,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1618,Pía Tejada-Simó,6B,4.03,6,3,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1619,Julio Azcona Montaña,8A,4.26,2,3,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1620,Clímaco Tejera Carnero,6B,3.41,2,1,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1621,Anna Tamarit Figueroa,7B,2.81,5,5,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1622,Kike Garrido Torrens,8B,1.31,4,0,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1623,Lucas Adalberto Ropero Cantón,8A,3.98,4,2,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1624,Reyes Ferreras Sastre,8B,3.14,0,5,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1625,Edgardo Ramírez Lillo,7B,1.09,5,3,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1626,Melania Egea Mulet,8B,4.74,6,6,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1627,Julie Vilar,8B,1.19,1,1,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1628,Mohamed Eutimio Lamas Ibarra,6B,1.52,0,0,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1629,Eli Vaquero Mendizábal,6B,4.5,0,8,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1630,Aurelia Esparza Torrent,6A,2.45,6,9,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1631,Feliciano Vergara Sosa,6B,4.27,0,6,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1632,Candelas Escamilla Bastida,8B,3.74,1,5,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1633,Nerea Mayo Busquets,7A,1.85,2,3,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1634,Fabiana España Ferrer,7B,4.59,5,0,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1635,Rico Guardiola Garcés,8A,3.04,2,6,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1636,Josué Ezequiel Montero Suarez,7B,1.44,10,7,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1637,Octavio Marín Gallo,8A,4.05,10,2,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1638,Nerea Cortes-Morante,7A,1.84,8,4,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1639,Clemente Prieto Duarte,6B,4.0,0,1,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1640,Marcos Crespo Morell,8A,2.22,8,0,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1641,Juana Riera,7A,4.94,3,5,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1642,Darío Jódar-Suarez,8B,1.95,10,8,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1643,Gil Camilo Medina Múgica,6A,4.57,2,6,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1644,Saturnina Miró Sandoval,8A,1.85,10,5,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1645,Ibán Lope Pozuelo Rincón,8B,3.9,0,1,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1646,Rico Quintero Baquero,6A,2.48,0,9,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1647,Felicidad Chaves Saura,8B,3.03,9,9,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1648,Agapito Francisco-Gallardo,8A,1.26,4,4,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1649,Eugenio Perea-Alvarez,7A,1.73,0,7,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1650,Inmaculada Piñeiro Moreno,8A,3.33,2,6,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1651,Manuelita de Garrido,7B,3.82,9,10,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1652,Lidia Isabela Lledó Campillo,8B,4.07,9,6,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1653,Domingo Cueto Morell,8A,2.19,8,10,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1654,Palmira Soriano Arteaga,7B,4.04,10,10,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1655,Noemí Torrens Iborra,6B,1.36,8,4,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1656,Marcio Perez-Barranco,7B,3.14,5,9,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1657,Amaro Noriega Llorente,6B,3.55,9,3,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1658,Flora del Luís,6A,2.32,1,4,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1659,Jonatan Cañizares Benavent,8A,4.09,4,9,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1660,Remedios Riba Cordero,6B,4.17,3,2,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1661,Macario Martínez Folch,6B,1.43,3,4,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1662,Anunciación del Higueras,8A,4.11,6,6,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1663,Maribel Juliá Manuel,8A,3.24,0,6,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1664,Buenaventura Bayo Mir,6B,3.8,8,7,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1665,Yolanda Salmerón Garmendia,7B,2.59,1,7,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1666,Felipe Solís Goñi,7B,4.89,0,10,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1667,Fidela Mínguez Flor,8A,1.7,3,4,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1668,Edu Alvarado-Checa,8A,4.77,3,8,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1669,Miguel Ángel Reig Roma,8A,1.88,10,10,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1670,Rosenda Torrecilla Asensio,8A,4.63,10,3,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1671,América Vila,7A,1.55,8,0,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1672,Adriana Ruiz Antón,8B,4.31,5,6,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1673,Trinidad Morillo,8A,1.47,2,9,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1674,Leandra del Múgica,6B,2.74,0,8,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1675,Quirino Benet Briones,8B,2.62,5,8,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1676,Reyna de Cuadrado,6A,1.59,10,4,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1677,Soraya Bonilla,7B,4.13,6,9,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1678,Ámbar Solís-Farré,6B,2.38,10,1,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1679,Rodolfo Rosa Lluch,6A,1.06,7,6,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1680,Jennifer Cornejo Murillo,6B,3.69,10,2,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1681,Ciriaco Nicolás Santiago,7A,4.23,5,9,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1682,Reyna Rosell,6B,4.92,1,4,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1683,Herberto Marin Agudo,6B,4.11,6,8,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1684,Saturnina Gema Alfonso Aguirre,7A,1.96,4,8,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1685,Felix del Contreras,6B,3.5,0,0,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1686,Tiburcio Gisbert-Morera,6A,2.91,3,0,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1687,Jesusa de Pacheco,8A,3.67,8,6,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1688,Calista Fabregat-Colomer,6A,2.56,6,1,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1689,Fabio Escudero,6B,1.47,6,8,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1690,Albert Ariza Castejón,8A,1.3,10,3,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1691,Febe de Morán,6A,2.34,0,0,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1692,Áurea Grau Gallardo,8B,2.5,0,9,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1693,Evaristo Cárdenas,8A,2.12,4,10,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1694,Elba Guijarro Gaya,7B,1.29,5,0,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1695,Alba Cervantes Sabater,8A,2.63,2,10,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1696,Silvestre Perez Amigó,8B,1.78,9,7,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1697,Teófila Gallardo Pintor,8B,2.64,2,0,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1698,Jacinto Ródenas Pujol,7A,2.47,10,4,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1699,Cristian Pintor,7B,1.07,7,7,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1700,Sabina Casanovas-Buendía,6A,3.4,6,2,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1701,José Luis Villalonga Carro,8B,3.86,7,2,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1702,Reyes Gallego Carreño,6B,2.61,6,10,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1703,Perla Palma Moliner,8A,3.39,5,0,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1704,Celestina Gallo Botella,7B,4.19,7,10,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1705,Fernanda Tejedor,8A,4.69,0,2,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1706,José Manuel Caparrós-Saura,7A,3.8,9,1,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1707,Abraham Pinto Rivera,8A,1.09,8,10,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1708,Tecla Cabo Pacheco,6B,2.05,3,3,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1709,Esmeralda Bas Rovira,7A,2.82,1,2,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1710,Darío Pascual Blasco Porta,7A,2.43,2,3,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1711,Adriana Llobet Morales,7B,4.66,6,1,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1712,Calisto Ibarra Elías,6A,3.18,1,7,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1713,Adelia Castellanos-Villena,6A,1.82,2,10,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1714,Buenaventura Soriano Arias,7B,1.31,2,0,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1715,Marc Gallego Marcos,8A,1.45,6,3,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1716,María Pilar Ribera Criado,7B,4.92,5,2,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1717,Carmela Díaz Villena,7B,2.98,9,5,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1718,Raimundo Escudero Patiño,6A,1.49,3,7,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1719,Rubén Cámara Andrés,7A,4.57,8,4,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1720,Clara Maza Quintanilla,8A,2.06,0,2,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1721,Yéssica Lara Montesinos,7A,2.29,2,6,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1722,Ruben Amigó Mármol,7A,3.04,1,6,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1723,Victor Sosa Aramburu,7B,2.14,0,3,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1724,Yago Ramón Artigas,7B,1.82,4,1,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1725,Florinda de Cruz,7B,2.88,1,2,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1726,Adrián Oller Gisbert,8A,3.96,7,10,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1727,Hugo Batalla Capdevila,6A,1.68,2,1,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1728,Jordana Ribes Sacristán,7B,4.34,10,1,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1729,Tiburcio Abascal Merino,6B,4.58,9,8,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1730,José Jimenez Castellanos,8A,1.41,3,4,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1731,Máxima Pavón Bárcena,8A,4.72,6,2,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1732,Leire Ferrández Casas,8A,3.18,7,10,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1733,José Ángel de Clavero,8A,2.75,6,3,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1734,Narciso de Bustamante,6B,1.97,1,8,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1735,Elisabet Calzada Iborra,6A,3.17,5,6,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1736,Edgardo de Mascaró,8B,2.35,9,7,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1737,Olimpia Sevilla Vizcaíno,8B,1.09,9,8,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1738,Maricruz Lasa,6A,3.55,6,10,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1739,Fernando Roca Perera,7B,2.81,0,6,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1740,Luis Miguel Aramburu Plaza,6B,1.94,6,8,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1741,Régulo Figuerola Esparza,6A,4.44,0,5,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1742,Calixto Aragón Gárate,8B,2.5,2,1,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1743,Heliodoro Mora Alberdi,8B,4.36,2,3,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1744,Juliana Tomás-Núñez,6A,2.4,10,2,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1745,Mauricio Ramirez,7A,4.97,10,10,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1746,Clotilde Santana Jódar,7B,1.06,5,8,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1747,Isabela de Losa,7B,4.75,10,4,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1748,Ángela Navas,8B,3.28,1,8,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1749,Violeta Estrada Jara,8A,4.08,2,1,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1750,Roxana Torrent Sastre,7B,1.55,9,6,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1751,Nicanor Noriega Vives,8A,4.02,0,8,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1752,Amílcar Pavón-Roldan,6B,3.14,10,4,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1753,Lalo Cases Busquets,7A,2.72,9,8,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1754,Jenaro de Carreño,6B,4.13,0,2,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1755,Olivia del Cases,6A,4.57,0,5,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1756,Encarnita Santamaria Rubio,8A,4.81,3,10,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1757,Anna de Puga,8A,2.73,9,4,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1758,Charo Cifuentes,7A,4.88,10,2,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1759,Román de Fiol,8A,4.53,5,9,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1760,Lucila Cordero Zapata,6A,3.21,1,10,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1761,Salomón Pareja Grau,8A,2.13,7,10,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1762,Carina Perelló,7B,3.03,0,10,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1763,Aureliano Daza Gonzalo,8A,1.37,2,3,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1764,Julián Rodrigo Francisco,6B,2.61,6,7,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1765,Amador Pérez-Martin,6A,3.16,10,2,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1766,Xiomara Vélez Robledo,7B,4.74,7,4,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1767,Josefina Montserrat Cerdán,8B,4.12,9,1,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1768,Aarón Anselmo Iglesias Mesa,8A,3.51,7,7,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1769,Íñigo Batlle,6B,3.13,6,8,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1770,René Reguera Checa,8A,4.43,9,6,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1771,Jose Angel Cueto Herrera,7A,2.99,2,2,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1772,Roberta Cuervo Rius,8B,3.06,3,7,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1773,Marta Ferrer Ibarra,7A,1.15,10,8,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1774,Andrea Gonzalo Llorente,8B,3.73,0,6,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1775,Victoriano Querol Casal,7A,1.74,10,3,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1776,Nerea Cordero-Fuster,8B,1.21,4,0,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1777,Bibiana Llorens Morán,7B,4.58,5,6,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1778,Melchor Carpio Viñas,7B,3.91,5,10,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1779,Juan Francisco Aurelio Sotelo Guerra,6A,3.28,0,10,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1780,Emma Casanovas Santos,8B,1.67,8,2,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1781,Andrés Felipe Noguera Lladó,7A,2.37,5,4,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1782,Graciano Jaume Carbajo,7B,1.73,8,6,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1783,Inmaculada Diéguez Torrens,7A,3.37,3,2,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1784,Daniel Juan Carlos Calderón Borrego,6B,4.31,9,4,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1785,María Belén Teresa Pareja Hernández,8B,3.55,10,2,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1786,Socorro Rosell Robles,7B,3.13,9,4,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1787,Melchor Calzada Losada,8A,4.32,3,3,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1788,Víctor Infante-Verdejo,7A,4.84,9,1,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1789,Hortensia Iglesias Palacios,8B,2.62,4,1,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1790,Adolfo Cadenas Torralba,8A,3.72,5,2,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1791,Luís del Giralt,7A,4.05,7,2,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1792,Irma Larrañaga-Calleja,7B,2.56,9,2,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1793,Mar Peña Villena,7A,4.78,3,3,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1794,Alondra Campos Cabello,6A,3.12,10,5,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1795,Arcelia Carpio-Gómez,8A,1.89,8,1,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1796,Marisa Robles Prada,6A,3.84,5,5,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1797,Fulgencio Sacristán Serna,7A,4.81,7,8,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1798,Teresa Yáñez-Arcos,6A,4.83,8,5,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1799,Ruth Rosales Amigó,7A,3.44,7,10,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1800,Loreto Escrivá,6B,4.3,3,0,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1801,Maxi Mulet Cabeza,8B,2.23,9,1,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1802,Édgar Hilario Andrade Saura,6A,4.58,9,1,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1803,Gastón Núñez-Ortuño,6B,4.66,9,7,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1804,Emiliano del Asenjo,8A,1.19,8,5,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1805,Jesusa Jódar Cueto,7A,1.94,0,1,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1806,León Montserrat,7A,1.84,4,1,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1807,Primitiva Olivé Dueñas,7A,2.17,1,5,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1808,Tatiana Borrell Múgica,7A,1.81,3,2,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1809,María Manuela Goñi Moliner,7B,3.48,3,6,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1810,Aureliano Zacarías Botella Ramis,6B,3.91,8,1,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1811,María Ángeles Valencia Estrada,6A,4.2,7,5,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1812,Cintia Landa Torralba,6B,1.06,9,4,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1813,Evangelina Río Pardo,7A,3.79,10,1,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1814,Cesar Moraleda Alcázar,7A,4.8,1,0,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1815,Claudio Menéndez Velasco,8A,1.71,6,9,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1816,Emiliana de Puig,8A,4.79,1,9,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1817,Obdulia Angelita Fiol Bueno,8B,2.89,0,9,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1818,Pelayo Quiroga Lago,7A,4.34,7,0,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1819,Pepito Nieto Otero,8A,2.44,3,8,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1820,Benita Plaza Calleja,6B,3.23,5,6,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1821,Marino Lucas Blanca Morante,7B,4.56,5,8,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1822,Ismael de Hoyos,8A,2.66,5,9,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1823,Calixta del Amo,7B,2.66,7,8,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1824,Consuelo Gilabert Higueras,7B,2.12,2,2,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1825,Isidro de Codina,8B,3.82,8,5,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1826,Eusebio Hervás Almansa,8B,4.57,4,8,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1827,Julie Sofía Ródenas Ribas,7A,2.36,9,6,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1828,Mamen de Revilla,7A,4.19,5,9,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1829,Teobaldo Villena Pulido,8A,1.71,2,4,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1830,Victoria Pombo-Jurado,7A,4.64,1,6,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1831,Rosaura Lago Rosado,6A,1.1,0,0,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1832,Filomena Guitart Montero,8B,1.62,4,5,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1833,Felipa de Cañizares,6A,1.92,10,3,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1834,Teodora Huerta Castells,6A,4.83,2,10,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1835,Álvaro Vera Tamarit,6B,4.2,5,1,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1836,Estefanía de Goñi,6A,1.02,5,7,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1837,Paca Goicoechea Sola,7B,3.09,10,10,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1838,Lucio Baena-Seguí,6A,3.22,2,10,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1839,Isabel Leonor Rubio Barón,8A,2.14,4,8,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1840,Aitor Sanabria Barceló,8A,3.47,6,9,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1841,Judith Coloma Bartolomé,7B,4.98,7,2,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1842,Ana Sofía Llorente Iniesta,7B,4.85,3,6,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1843,Pepe Tudela Rosa,8B,4.6,7,4,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1844,Hector Garrido Sans,7A,2.65,0,2,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1845,Julio César Pablo Mayo Murillo,7A,4.38,2,5,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1846,Lucas del Cobos,6B,1.84,1,8,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1847,Nieves del Agudo,6A,4.22,2,8,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1848,Amelia Olivia Palma Carretero,6B,3.95,3,1,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1849,Marino Bartolomé Ávila,6A,1.8,2,10,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1850,Pastora Cuéllar Ferreras,6A,3.51,9,1,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1851,Marcelo de Escudero,8A,2.51,0,1,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1852,Moreno Uría Carreras,6B,1.98,4,7,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1853,Anunciación Burgos Quintanilla,7A,1.82,8,7,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1854,Odalis Ponce-Ramón,7B,1.1,2,7,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1855,Obdulia Sánchez Chacón,7B,3.07,1,10,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1856,Casandra Báez Merino,7B,1.71,2,5,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1857,Carmen Ros Iniesta,8A,2.86,4,5,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1858,Apolonia Espinosa Juliá,7B,3.51,7,2,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1859,Chus González Ortega,7A,1.62,9,0,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1860,Fortunato Sans Burgos,8B,1.57,1,8,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1861,Domitila Almagro,8A,3.97,6,10,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1862,Ana Manuela Barranco Perea,6A,1.96,1,6,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1863,Cesar Abellán Ángel,6A,3.2,2,7,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1864,Abilio Morillo Planas,7B,3.58,2,1,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1865,Alberto Salomón Perera Baños,8B,3.75,3,7,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1866,Ciríaco Valentín Espada,8A,3.91,9,10,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1867,Concha del Caballero,6B,4.87,0,5,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1868,Marcelo Perelló Elorza,8A,1.69,9,9,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1869,Olalla Elías Vera,6A,1.86,6,2,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1870,Santos Salgado Anglada,8A,3.93,5,10,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1871,Alma Lupita Carreño Mesa,8A,1.3,4,3,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1872,Baltasar Félix Escribano Villegas,7A,3.2,3,2,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1873,Vinicio Cabo Valenciano,8A,3.61,3,9,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1874,Marcial Cortina,7A,1.81,8,4,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1875,Águeda Evangelina Sanz Porcel,7B,2.67,7,10,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1876,Azahar Bastida Neira,6B,3.95,7,3,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1877,Gervasio de Heras,6A,4.23,4,3,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1878,Cecilia Quintero Arnaiz,8A,3.28,4,4,"Buen desempeño, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1879,América Tenorio Cabeza,8B,4.24,7,9,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1880,Apolonia Montes,8A,3.9,2,7,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1881,Marcela Vélez,6A,4.3,9,7,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1882,Prudencia Font Lumbreras,6A,1.75,2,7,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1883,Bernarda Samper Figuerola,8B,1.65,5,3,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1884,Matías Ignacio Quintero Rozas,7B,4.6,7,8,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1885,Anna Trujillo Alvarez,8B,3.88,3,7,"Buen desempeño, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1886,Aránzazu Montoya Tomé,8A,4.58,5,2,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1887,Gema Encarnación Valenciano Madrigal,6B,4.8,8,3,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1888,Juan Luis Arnaiz Fabra,6B,1.6,10,1,"Bajo rendimiento, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1889,Fabio Durán Mir,8A,4.17,6,0,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1890,Juanito Anaya Arévalo,7A,1.75,0,0,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1891,Guadalupe Ciríaco Ortiz Badía,8B,4.04,7,9,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1892,Pepita Verdugo Zamora,8A,4.54,8,8,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1893,José Manuel Peláez Arribas,8B,4.45,7,5,"Buen desempeño, Disciplina adecuada, Inestabilidad emocional.",2025-10-08 01:53:04
-1894,Augusto Sebastián,8A,1.84,5,10,"Bajo rendimiento, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1895,Victor Manuel Giralt Montero,8A,2.43,3,10,"Bajo rendimiento, Problemas de disciplina, Estado emocional estable.",2025-10-08 01:53:04
-1896,Pepe Frutos Valbuena,6B,2.58,0,0,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1897,Lucho Alcántara,7B,1.07,4,3,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
-1898,Íñigo Pizarro Fuster,7A,3.58,9,9,"Buen desempeño, Disciplina adecuada, Estado emocional estable.",2025-10-08 01:53:04
-1899,Óscar Manrique Acuña,6B,1.44,1,5,"Bajo rendimiento, Problemas de disciplina, Inestabilidad emocional.",2025-10-08 01:53:04
+1,Narciso del Elorza,2° Primaria,Excelente,Ejemplar,Ansioso,Muestra interés por aprender.,2025-10-08 02:13:18
+2,Sarita Gracia Peral,6° Primaria,Regular,Ejemplar,Estable,Presenta dificultades para socializar.,2025-10-08 02:13:18
+3,Amada Costa Cifuentes,2° Primaria,Insuficiente,Necesita Mejorar,Ansioso,Participa activamente en clase.,2025-10-08 02:13:18
+4,Delia María Ángeles Jordá Rocamora,5° Primaria,Bueno,Ejemplar,Desmotivado,Ha mejorado su rendimiento académico.,2025-10-08 02:13:18
+5,Olimpia Menendez-Fuentes,1° Primaria,Bueno,Deficiente,Estable,Necesita mejorar su comportamiento.,2025-10-08 02:13:18
+6,Hernando Agustín-Ricart,2° Primaria,Insuficiente,Ejemplar,Ansioso,Muestra interés por aprender.,2025-10-08 02:13:18
+7,Florinda Lobo Falcó,1° Primaria,Bueno,Adecuada,Estable,Ha mejorado su rendimiento académico.,2025-10-08 02:13:18
+8,Dolores Alarcón Prats,4° Primaria,Insuficiente,Adecuada,Estable,Necesita mejorar su comportamiento.,2025-10-08 02:13:18
+9,Pablo Sanchez Castells,5° Primaria,Excelente,Ejemplar,Estable,Requiere apoyo emocional adicional.,2025-10-08 02:13:18
+10,Andrés Felipe de Carlos,4° Primaria,Excelente,Adecuada,Ansioso,Participa activamente en clase.,2025-10-08 02:13:18
+11,Virgilio Torres Batlle,1° Primaria,Excelente,Deficiente,Ansioso,Demuestra liderazgo en grupo.,2025-10-08 02:13:18
+12,Julio Morán Diego,6° Primaria,Insuficiente,Adecuada,Ansioso,Debe trabajar en su concentración.,2025-10-08 02:13:18
+13,Noé Puig-López,1° Primaria,Regular,Adecuada,Desmotivado,Requiere apoyo emocional adicional.,2025-10-08 02:13:18
+14,Eloísa del Jurado,3° Primaria,Bueno,Ejemplar,Ansioso,Ha mejorado su rendimiento académico.,2025-10-08 02:13:18
+15,Ricardo Carreras Prat,6° Primaria,Regular,Ejemplar,Ansioso,Presenta dificultades para socializar.,2025-10-08 02:13:18
+16,Armando Valenciano,2° Primaria,Excelente,Ejemplar,Motivado,Participa activamente en clase.,2025-10-08 02:13:18
+17,Bernardo Villegas,5° Primaria,Insuficiente,Adecuada,Motivado,Participa activamente en clase.,2025-10-08 02:13:18
+18,Joel Tejero Canales,5° Primaria,Regular,Adecuada,Ansioso,Presenta dificultades para socializar.,2025-10-08 02:13:18
+19,Darío Arellano Pons,4° Primaria,Bueno,Ejemplar,Ansioso,Demuestra liderazgo en grupo.,2025-10-08 02:13:18
+20,Ariel Bauzà Herranz,3° Primaria,Insuficiente,Ejemplar,Estable,Debe trabajar en su concentración.,2025-10-08 02:13:18
+21,María Manuela Peláez Ríos,6° Primaria,Regular,Adecuada,Desmotivado,Participa activamente en clase.,2025-10-08 02:13:18
+22,Ismael Armengol Vara,1° Primaria,Bueno,Deficiente,Estable,Muestra interés por aprender.,2025-10-08 02:13:18
+23,Rodrigo Gallo,3° Primaria,Bueno,Deficiente,Motivado,Demuestra liderazgo en grupo.,2025-10-08 02:13:18
+24,Amada Alcaraz Corominas,5° Primaria,Regular,Deficiente,Motivado,Muestra interés por aprender.,2025-10-08 02:13:18
+25,Teodora Iglesia Echevarría,2° Primaria,Excelente,Necesita Mejorar,Estable,Muestra interés por aprender.,2025-10-08 02:13:18
+26,Joaquina Fonseca Barbero,1° Primaria,Bueno,Deficiente,Estable,Requiere apoyo emocional adicional.,2025-10-08 02:13:18
+27,Fortunata Coronado Manzanares,1° Primaria,Regular,Adecuada,Desmotivado,Debe trabajar en su concentración.,2025-10-08 02:13:18
+28,Ana Belén Gomis,5° Primaria,Insuficiente,Necesita Mejorar,Estable,Muestra interés por aprender.,2025-10-08 02:13:18
+29,Mauricio Ferreras Narváez,5° Primaria,Excelente,Deficiente,Estable,Requiere apoyo emocional adicional.,2025-10-08 02:13:18
+30,Aitana Saez Baños,4° Primaria,Excelente,Deficiente,Ansioso,Muestra interés por aprender.,2025-10-08 02:13:18
+31,Marcial del Cuevas,2° Primaria,Regular,Ejemplar,Motivado,Demuestra liderazgo en grupo.,2025-10-08 02:13:18
+32,Leocadio Moll Barberá,3° Primaria,Bueno,Ejemplar,Ansioso,Presenta dificultades para socializar.,2025-10-08 02:13:18
+33,Octavio Bas Redondo,1° Primaria,Bueno,Ejemplar,Estable,Participa activamente en clase.,2025-10-08 02:13:18
+34,Luna Alemany,5° Primaria,Regular,Deficiente,Desmotivado,Ha mejorado su rendimiento académico.,2025-10-08 02:13:18
+35,Pacífica Carla Montoya Pellicer,3° Primaria,Insuficiente,Necesita Mejorar,Estable,Demuestra liderazgo en grupo.,2025-10-08 02:13:18
+36,Calixto Calleja Guillen,4° Primaria,Regular,Necesita Mejorar,Motivado,Requiere apoyo emocional adicional.,2025-10-08 02:13:18
+37,Graciano Acevedo Barragán,2° Primaria,Bueno,Necesita Mejorar,Desmotivado,Necesita mejorar su comportamiento.,2025-10-08 02:13:18
+38,Rebeca Carretero Gomez,2° Primaria,Regular,Deficiente,Desmotivado,Participa activamente en clase.,2025-10-08 02:13:18
+39,Lope Benavent Aller,1° Primaria,Excelente,Ejemplar,Estable,Necesita mejorar su comportamiento.,2025-10-08 02:13:18
+40,Marianela Polo Lumbreras,1° Primaria,Bueno,Ejemplar,Desmotivado,Debe trabajar en su concentración.,2025-10-08 02:13:18
+41,Gala Javiera Gámez Trujillo,1° Primaria,Insuficiente,Deficiente,Motivado,Necesita mejorar su comportamiento.,2025-10-08 02:13:18
+42,Dionisia Fabiola Sanz Tello,4° Primaria,Bueno,Deficiente,Estable,Participa activamente en clase.,2025-10-08 02:13:18
+43,Javi Palomino Goicoechea,5° Primaria,Excelente,Necesita Mejorar,Desmotivado,Necesita mejorar su comportamiento.,2025-10-08 02:13:18
+44,Eric Díaz Pont,2° Primaria,Excelente,Ejemplar,Motivado,Participa activamente en clase.,2025-10-08 02:13:18
+45,Valero Cueto-Pedro,4° Primaria,Excelente,Adecuada,Estable,Requiere apoyo emocional adicional.,2025-10-08 02:13:18
+46,Inocencio Marín Cobo,4° Primaria,Excelente,Adecuada,Estable,Ha mejorado su rendimiento académico.,2025-10-08 02:13:18
+47,Jeremías Reguera González,6° Primaria,Bueno,Necesita Mejorar,Estable,Participa activamente en clase.,2025-10-08 02:13:18
+48,Begoña Osorio Galindo,3° Primaria,Regular,Necesita Mejorar,Desmotivado,Presenta dificultades para socializar.,2025-10-08 02:13:18
+49,Ignacia Rios Serna,2° Primaria,Insuficiente,Adecuada,Estable,Debe trabajar en su concentración.,2025-10-08 02:13:18
+50,Isidora Pont Silva,1° Primaria,Excelente,Deficiente,Ansioso,Demuestra liderazgo en grupo.,2025-10-08 02:13:18
+51,Evangelina Moreno Pujadas,5° Primaria,Regular,Deficiente,Desmotivado,Requiere apoyo emocional adicional.,2025-10-08 02:13:18
+52,Porfirio Fuster Hoyos,5° Primaria,Regular,Deficiente,Estable,Debe trabajar en su concentración.,2025-10-08 02:13:18
+53,Pelayo Feijoo,1° Primaria,Excelente,Necesita Mejorar,Ansioso,Debe trabajar en su concentración.,2025-10-08 02:13:18
+54,Charo Parra-Sierra,5° Primaria,Insuficiente,Adecuada,Desmotivado,Presenta dificultades para socializar.,2025-10-08 02:13:18
+55,Tere del Perera,4° Primaria,Insuficiente,Deficiente,Ansioso,Necesita mejorar su comportamiento.,2025-10-08 02:13:18
+56,Custodio Haroldo Cid Sosa,3° Primaria,Excelente,Adecuada,Ansioso,Ha mejorado su rendimiento académico.,2025-10-08 02:13:18
+57,Kike Santamaria Mas,1° Primaria,Excelente,Ejemplar,Motivado,Requiere apoyo emocional adicional.,2025-10-08 02:13:18
+58,Haydée Amaya Flores Gaya,4° Primaria,Insuficiente,Ejemplar,Motivado,Demuestra liderazgo en grupo.,2025-10-08 02:13:18
+59,Mamen Crespi Planas,6° Primaria,Excelente,Ejemplar,Estable,Participa activamente en clase.,2025-10-08 02:13:18
+60,Iris Escribano,4° Primaria,Insuficiente,Deficiente,Estable,Presenta dificultades para socializar.,2025-10-08 02:13:18
+61,Aitana Fábregas Polo,1° Primaria,Excelente,Necesita Mejorar,Ansioso,Necesita mejorar su comportamiento.,2025-10-08 02:13:18
+62,Natividad Dueñas-Llano,6° Primaria,Regular,Ejemplar,Motivado,Debe trabajar en su concentración.,2025-10-08 02:13:18
+63,Rebeca Costa-Quesada,6° Primaria,Excelente,Necesita Mejorar,Ansioso,Participa activamente en clase.,2025-10-08 02:13:18
+64,Ricarda Figuerola-Contreras,3° Primaria,Excelente,Necesita Mejorar,Desmotivado,Requiere apoyo emocional adicional.,2025-10-08 02:13:18
+65,Ester Solís Hoyos,5° Primaria,Insuficiente,Adecuada,Estable,Debe trabajar en su concentración.,2025-10-08 02:13:18
+66,Rico Torrecilla Molina,4° Primaria,Insuficiente,Ejemplar,Desmotivado,Requiere apoyo emocional adicional.,2025-10-08 02:13:18
+67,Úrsula Rafaela Aranda Caballero,5° Primaria,Regular,Ejemplar,Desmotivado,Requiere apoyo emocional adicional.,2025-10-08 02:13:18
+68,Aristides Almazán Aguirre,1° Primaria,Bueno,Adecuada,Desmotivado,Presenta dificultades para socializar.,2025-10-08 02:13:18
+69,Fito Bosch Millán,1° Primaria,Insuficiente,Deficiente,Motivado,Debe trabajar en su concentración.,2025-10-08 02:13:18
+70,Cintia Contreras Garcés,2° Primaria,Bueno,Necesita Mejorar,Desmotivado,Muestra interés por aprender.,2025-10-08 02:13:18
+71,Sosimo Anacleto Parejo Moles,2° Primaria,Regular,Ejemplar,Desmotivado,Participa activamente en clase.,2025-10-08 02:13:18
+72,Yolanda Salom-Taboada,1° Primaria,Regular,Adecuada,Desmotivado,Muestra interés por aprender.,2025-10-08 02:13:18
+73,Ofelia Díez Manjón,1° Primaria,Bueno,Deficiente,Estable,Ha mejorado su rendimiento académico.,2025-10-08 02:13:18
+74,Aureliano Salvador Cuesta Cornejo,5° Primaria,Bueno,Ejemplar,Estable,Requiere apoyo emocional adicional.,2025-10-08 02:13:18
+75,Hipólito Carrasco Redondo,1° Primaria,Bueno,Ejemplar,Motivado,Necesita mejorar su comportamiento.,2025-10-08 02:13:18
+76,Lisandro Soria Lucas,5° Primaria,Excelente,Adecuada,Motivado,Ha mejorado su rendimiento académico.,2025-10-08 02:13:18
+77,Baudelio de Salgado,2° Primaria,Excelente,Ejemplar,Desmotivado,Participa activamente en clase.,2025-10-08 02:13:18
+78,René Ariza Cerdá,6° Primaria,Regular,Ejemplar,Estable,Requiere apoyo emocional adicional.,2025-10-08 02:13:18
+79,Juana Pinilla Tapia,3° Primaria,Regular,Adecuada,Ansioso,Necesita mejorar su comportamiento.,2025-10-08 02:13:18
+80,Rodolfo Aller Pareja,4° Primaria,Regular,Adecuada,Desmotivado,Demuestra liderazgo en grupo.,2025-10-08 02:13:18
+81,Marisol Espada Salvà,4° Primaria,Excelente,Adecuada,Estable,Participa activamente en clase.,2025-10-08 02:13:18
+82,Jose Luis Núñez Nicolás,3° Primaria,Excelente,Deficiente,Desmotivado,Demuestra liderazgo en grupo.,2025-10-08 02:13:18
+83,Venceslás Pelayo Bayón,4° Primaria,Excelente,Adecuada,Ansioso,Requiere apoyo emocional adicional.,2025-10-08 02:13:18
+84,Borja Marín Prada,5° Primaria,Excelente,Necesita Mejorar,Desmotivado,Necesita mejorar su comportamiento.,2025-10-08 02:13:18
+85,Bartolomé Figueras Montes,6° Primaria,Excelente,Adecuada,Desmotivado,Presenta dificultades para socializar.,2025-10-08 02:13:18
+86,Pelayo Ruy Blanco Pacheco,2° Primaria,Insuficiente,Adecuada,Desmotivado,Requiere apoyo emocional adicional.,2025-10-08 02:13:18
+87,Rosalía Leocadia Alcázar Rios,5° Primaria,Insuficiente,Ejemplar,Motivado,Participa activamente en clase.,2025-10-08 02:13:18
+88,Germán Iriarte Fernandez,5° Primaria,Regular,Adecuada,Estable,Presenta dificultades para socializar.,2025-10-08 02:13:18
+89,Elisa Viña,1° Primaria,Insuficiente,Ejemplar,Motivado,Requiere apoyo emocional adicional.,2025-10-08 02:13:18
+90,Jose Ignacio Montalbán Diaz,1° Primaria,Insuficiente,Adecuada,Ansioso,Ha mejorado su rendimiento académico.,2025-10-08 02:13:18
+91,Moreno Haro Medina,3° Primaria,Bueno,Necesita Mejorar,Desmotivado,Demuestra liderazgo en grupo.,2025-10-08 02:13:18
+92,Jacobo Roselló-Nebot,1° Primaria,Insuficiente,Deficiente,Ansioso,Presenta dificultades para socializar.,2025-10-08 02:13:18
+93,Elías Sedano Bernat,6° Primaria,Excelente,Deficiente,Motivado,Requiere apoyo emocional adicional.,2025-10-08 02:13:18
+94,Mamen Angulo Castrillo,4° Primaria,Bueno,Necesita Mejorar,Desmotivado,Participa activamente en clase.,2025-10-08 02:13:18
+95,Adelina Paulina Aliaga Mate,3° Primaria,Insuficiente,Necesita Mejorar,Ansioso,Necesita mejorar su comportamiento.,2025-10-08 02:13:18
+96,Chus Soriano Pinto,4° Primaria,Excelente,Adecuada,Motivado,Necesita mejorar su comportamiento.,2025-10-08 02:13:18
+97,Alicia León Perez,4° Primaria,Bueno,Adecuada,Motivado,Debe trabajar en su concentración.,2025-10-08 02:13:18
+98,Flavia Vila Rodriguez,6° Primaria,Insuficiente,Necesita Mejorar,Ansioso,Participa activamente en clase.,2025-10-08 02:13:18
+99,Olga Nogués Cazorla,5° Primaria,Bueno,Necesita Mejorar,Desmotivado,Debe trabajar en su concentración.,2025-10-08 02:13:18
+100,Pacífica Jurado Ferrando,5° Primaria,Excelente,Deficiente,Ansioso,Presenta dificultades para socializar.,2025-10-08 02:13:18
